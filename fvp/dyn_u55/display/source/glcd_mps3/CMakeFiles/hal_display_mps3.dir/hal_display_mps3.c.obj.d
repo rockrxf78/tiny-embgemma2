@@ -1,0 +1,31 @@
+display/source/glcd_mps3/CMakeFiles/hal_display_mps3.dir/hal_display_mps3.c.obj: \
+ /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/display/source/glcd_mps3/hal_display_mps3.c \
+ /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/display/include/hal_display.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stddef.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdbool.h \
+ /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/log/hal_log.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/inttypes.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/stdio.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdarg.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+ /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/display/source/glcd_mps3/glcd.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/string.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/string.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/assert.h

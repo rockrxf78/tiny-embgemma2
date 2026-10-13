@@ -1,0 +1,2 @@
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ar qc ../lib/libethosu_core_driver.a CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u55_u65.c.obj
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ranlib ../lib/libethosu_core_driver.a

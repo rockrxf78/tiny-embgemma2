@@ -1,0 +1,301 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:43 (project)"
+    message: |
+      The target system is: Generic -  - cortex-m85
+      The host system is: Linux - 6.17.0-1014-nvidia - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:43 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:43 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/3.28.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:43 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-exit.o): in function `exit':
+      exit.c:(.text.exit+0x28): undefined reference to `_exit'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-closer.o): in function `_close_r':
+      closer.c:(.text._close_r+0x18): undefined reference to `_close'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-lseekr.o): in function `_lseek_r':
+      lseekr.c:(.text._lseek_r+0x24): undefined reference to `_lseek'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-readr.o): in function `_read_r':
+      readr.c:(.text._read_r+0x24): undefined reference to `_read'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-writer.o): in function `_write_r':
+      writer.c:(.text._write_r+0x24): undefined reference to `_write'
+      /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/libc.a(libc_a-sbrkr.o): in function `_sbrk_r':
+      sbrkr.c:(.text._sbrk_r+0x18): undefined reference to `_sbrk'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:43 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/3.28.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:43 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      arm-none-eabi-gcc (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 15.3.1 20260627
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:43 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-UT6a7t"
+      binary: "/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-UT6a7t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ronren/ml-embedded-evaluation-kit/scripts/cmake;/home/ronren/ml-embedded-evaluation-kit/scripts/cmake/configuration_options;/home/ronren/ml-embedded-evaluation-kit/scripts/cmake/timing_adapter"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-UT6a7t'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_050f8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_050f8.dir/build.make CMakeFiles/cmTC_050f8.dir/build
+        gmake[1]: Entering directory '/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-UT6a7t'
+        Building C object CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj
+        /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-gcc -DCPU_CORTEX_M55  -std=c11   -v -Wall -Wextra -Wvla -Wno-psabi -funsigned-char -ffunction-sections -fdata-sections -mthumb -mlittle-endian -MD -mfloat-abi=hard -mcpu=cortex-m55 -o CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-gcc
+        Target: arm-none-eabi
+        Configured with: /tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/install --with-gmp=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-mpc=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-isl=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-zstd=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 
+        COLLECT_GCC_OPTIONS='-D' 'CPU_CORTEX_M55' '-std=c11' '-v' '-Wall' '-Wextra' '-Wvla' '-Wno-psabi' '-funsigned-char' '-ffunction-sections' '-fdata-sections' '-mthumb' '-mlittle-endian' '-MD' '-mfloat-abi=hard' '-mcpu=cortex-m55' '-o' 'CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8.1-m.main+fp.dp+mve.fp' '-march=armv8.1-m.main+fp.dp+mve.fp' '-dumpdir' 'CMakeFiles/cmTC_050f8.dir/'
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/cc1 -quiet -v -imultilib thumb/v8-m.main+dp/hard -iprefix /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/ -isysroot /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi -MD CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.d -MQ CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj -D__USES_INITFINI__ -D CPU_CORTEX_M55 /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_050f8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mthumb -mlittle-endian -mfloat-abi=hard -mcpu=cortex-m55 -mlibarch=armv8.1-m.main+fp.dp+mve.fp -march=armv8.1-m.main+fp.dp+mve.fp -Wall -Wextra -Wvla -Wno-psabi -std=c11 -version -funsigned-char -ffunction-sections -fdata-sections -o /tmp/cc9RqZdI.s
+        GNU C11 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) version 15.3.1 20260627 (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/include"
+        ignoring nonexistent directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/include-fixed"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/include
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/include-fixed
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 5bfc1a440963558a37b890a042bea15b
+        COLLECT_GCC_OPTIONS='-D' 'CPU_CORTEX_M55' '-std=c11' '-v' '-Wall' '-Wextra' '-Wvla' '-Wno-psabi' '-funsigned-char' '-ffunction-sections' '-fdata-sections' '-mthumb' '-mlittle-endian' '-MD' '-mfloat-abi=hard' '-mcpu=cortex-m55' '-o' 'CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8.1-m.main+fp.dp+mve.fp' '-march=armv8.1-m.main+fp.dp+mve.fp' '-dumpdir' 'CMakeFiles/cmTC_050f8.dir/'
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/as -v -EL -march=armv8.1-m.main+fp.dp+mve.fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj /tmp/cc9RqZdI.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 2.45.1.20260126
+        COMPILER_PATH=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CPU_CORTEX_M55' '-std=c11' '-v' '-Wall' '-Wextra' '-Wvla' '-Wno-psabi' '-funsigned-char' '-ffunction-sections' '-fdata-sections' '-mthumb' '-mlittle-endian' '-MD' '-mfloat-abi=hard' '-mcpu=cortex-m55' '-o' 'CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj' '-c' '-mlibarch=armv8.1-m.main+fp.dp+mve.fp' '-march=armv8.1-m.main+fp.dp+mve.fp' '-dumpdir' 'CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_050f8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_050f8.dir/link.txt --verbose=1
+        /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-gcc  -v -mthumb -mcpu=cortex-m55 -mfloat-abi=hard -mlittle-endian --stats -Xlinker --gc-sections CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj -o cmTC_050f8 
+        Using built-in specs.
+        COLLECT_GCC=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-gcc
+        COLLECT_LTO_WRAPPER=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/install --with-gmp=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-mpc=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-isl=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-zstd=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 
+        COMPILER_PATH=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-mthumb' '-mcpu=cortex-m55' '-mfloat-abi=hard' '-mlittle-endian' '-fstats' '-o' 'cmTC_050f8' '-mlibarch=armv8.1-m.main+fp.dp+mve.fp' '-march=armv8.1-m.main+fp.dp+mve.fp' '-dumpdir' 'cmTC_050f8.'
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/collect2 -plugin /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/liblto_plugin.so -plugin-opt=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cceMXAUq.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi -EL -X -o cmTC_050f8 /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/crti.o /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/crtbegin.o /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/crt0.o -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+dp/hard -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1 -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_050f8.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/crtend.o /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/crtn.o
+        /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/libc.a(libc_a-exit.o): in function `exit':
+        exit.c:(.text.exit+0x14): undefined reference to `_exit'
+        /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: (_exit): Unknown destination type (ARM/Thumb) in /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/libc.a(libc_a-exit.o)
+        exit.c:(.text.exit+0x14): dangerous relocation: unsupported relocation
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_050f8.dir/build.make:99: cmTC_050f8] Error 1
+        gmake[1]: Leaving directory '/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-UT6a7t'
+        gmake: *** [Makefile:127: cmTC_050f8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:43 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-Y9CVTH"
+      binary: "/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-Y9CVTH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/ronren/ml-embedded-evaluation-kit/scripts/cmake;/home/ronren/ml-embedded-evaluation-kit/scripts/cmake/configuration_options;/home/ronren/ml-embedded-evaluation-kit/scripts/cmake/timing_adapter"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-Y9CVTH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6dd86/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6dd86.dir/build.make CMakeFiles/cmTC_6dd86.dir/build
+        gmake[1]: Entering directory '/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-Y9CVTH'
+        Building CXX object CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj
+        /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-g++ -DCPU_CORTEX_M55  -std=c++17   -v -Wall -Wextra -Wvla -Wno-psabi -funsigned-char -ffunction-sections -fdata-sections -fno-unwind-tables -fno-rtti -fno-exceptions -mthumb -mlittle-endian -MD -mfloat-abi=hard -mcpu=cortex-m55 -o CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-g++
+        Target: arm-none-eabi
+        Configured with: /tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/install --with-gmp=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-mpc=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-isl=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-zstd=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 
+        COLLECT_GCC_OPTIONS='-D' 'CPU_CORTEX_M55' '-std=c++17' '-v' '-Wall' '-Wextra' '-Wvla' '-Wno-psabi' '-funsigned-char' '-ffunction-sections' '-fdata-sections' '-fno-unwind-tables' '-fno-rtti' '-fno-exceptions' '-mthumb' '-mlittle-endian' '-MD' '-mfloat-abi=hard' '-mcpu=cortex-m55' '-o' 'CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv8.1-m.main+fp.dp+mve.fp' '-march=armv8.1-m.main+fp.dp+mve.fp' '-dumpdir' 'CMakeFiles/cmTC_6dd86.dir/'
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/cc1plus -quiet -v -imultilib thumb/v8-m.main+dp/hard -iprefix /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/ -isysroot /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi -MD CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.d -MQ CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj -D__USES_INITFINI__ -D CPU_CORTEX_M55 /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6dd86.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mthumb -mlittle-endian -mfloat-abi=hard -mcpu=cortex-m55 -mlibarch=armv8.1-m.main+fp.dp+mve.fp -march=armv8.1-m.main+fp.dp+mve.fp -Wall -Wextra -Wvla -Wno-psabi -std=c++17 -version -funsigned-char -ffunction-sections -fdata-sections -fno-unwind-tables -fno-rtti -fno-exceptions -o /tmp/ccuBPQdy.s
+        GNU C++17 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) version 15.3.1 20260627 (arm-none-eabi)
+        	compiled by GNU C version 9.2.1 20191120 (Red Hat 9.2.1-2), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1/arm-none-eabi/thumb/v8-m.main+dp/hard"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1/backward"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/include"
+        ignoring nonexistent directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/usr/local/include"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/include-fixed"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include"
+        ignoring duplicate directory "/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1/arm-none-eabi/thumb/v8-m.main+dp/hard
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include/c++/15.3.1/backward
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/include
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/include-fixed
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/include
+        End of search list.
+        Compiler executable checksum: 5f1b3a04fbb116d8a0988460e7fcfa02
+        COLLECT_GCC_OPTIONS='-D' 'CPU_CORTEX_M55' '-std=c++17' '-v' '-Wall' '-Wextra' '-Wvla' '-Wno-psabi' '-funsigned-char' '-ffunction-sections' '-fdata-sections' '-fno-unwind-tables' '-fno-rtti' '-fno-exceptions' '-mthumb' '-mlittle-endian' '-MD' '-mfloat-abi=hard' '-mcpu=cortex-m55' '-o' 'CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv8.1-m.main+fp.dp+mve.fp' '-march=armv8.1-m.main+fp.dp+mve.fp' '-dumpdir' 'CMakeFiles/cmTC_6dd86.dir/'
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/as -v -EL -march=armv8.1-m.main+fp.dp+mve.fp -mfloat-abi=hard -meabi=5 -o CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccuBPQdy.s
+        GNU assembler version 2.45.1 (arm-none-eabi) using BFD version (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 2.45.1.20260126
+        COMPILER_PATH=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-D' 'CPU_CORTEX_M55' '-std=c++17' '-v' '-Wall' '-Wextra' '-Wvla' '-Wno-psabi' '-funsigned-char' '-ffunction-sections' '-fdata-sections' '-fno-unwind-tables' '-fno-rtti' '-fno-exceptions' '-mthumb' '-mlittle-endian' '-MD' '-mfloat-abi=hard' '-mcpu=cortex-m55' '-o' 'CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlibarch=armv8.1-m.main+fp.dp+mve.fp' '-march=armv8.1-m.main+fp.dp+mve.fp' '-dumpdir' 'CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_6dd86
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6dd86.dir/link.txt --verbose=1
+        /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-g++  -v -mthumb -mcpu=cortex-m55 -mfloat-abi=hard -mlittle-endian --stats -Xlinker --gc-sections CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_6dd86 
+        Using built-in specs.
+        COLLECT_GCC=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-g++
+        COLLECT_LTO_WRAPPER=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/lto-wrapper
+        Target: arm-none-eabi
+        Configured with: /tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/install --with-gmp=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-mpfr=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-mpc=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-isl=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --with-zstd=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-headers=yes --with-gnu-ld --with-native-system-header-dir=/include --with-sysroot=/tmp/jenkins-970b2e1a/workspace/gnu_toolchains/arm_builds/arm-15/build-arm-none-eabi/install/arm-none-eabi --with-bugurl=https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/ --with-multilib-list=aprofile,rmprofile --with-pkgversion='Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)'
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.3.1 20260627 (Arm GNU Toolchain 15.3.Rel1 (Build arm-15.149)) 
+        COMPILER_PATH=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/
+        LIBRARY_PATH=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/:/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/
+        COLLECT_GCC_OPTIONS='-v' '-mthumb' '-mcpu=cortex-m55' '-mfloat-abi=hard' '-mlittle-endian' '-fstats' '-o' 'cmTC_6dd86' '-mlibarch=armv8.1-m.main+fp.dp+mve.fp' '-march=armv8.1-m.main+fp.dp+mve.fp' '-dumpdir' 'cmTC_6dd86.'
+         /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/collect2 -plugin /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/liblto_plugin.so -plugin-opt=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/15.3.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVw00qU.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi -EL -X -o cmTC_6dd86 /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/crti.o /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/crtbegin.o /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/crt0.o -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib/thumb/v8-m.main+dp/hard -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1 -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib -L/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../arm-none-eabi/lib --gc-sections CMakeFiles/cmTC_6dd86.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/crtend.o /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/thumb/v8-m.main+dp/hard/crtn.o
+        /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/libc.a(libc_a-exit.o): in function `exit':
+        exit.c:(.text.exit+0x14): undefined reference to `_exit'
+        /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: (_exit): Unknown destination type (ARM/Thumb) in /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+dp/hard/libc.a(libc_a-exit.o)
+        exit.c:(.text.exit+0x14): dangerous relocation: unsupported relocation
+        collect2: error: ld returned 1 exit status
+        gmake[1]: *** [CMakeFiles/cmTC_6dd86.dir/build.make:99: cmTC_6dd86] Error 1
+        gmake[1]: Leaving directory '/home/ronren/embgemma2/fvp/dyn_u85/CMakeFiles/CMakeScratch/TryCompile-Y9CVTH'
+        gmake: *** [Makefile:127: cmTC_6dd86/fast] Error 2
+        
+      exitCode: 2
+...

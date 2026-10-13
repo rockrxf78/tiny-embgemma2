@@ -1,0 +1,20 @@
+cmsis_device/CMakeFiles/cmsis_device.dir/__/__/__/__/__/dependencies/cortex-dfp/Device/ARMCM55/Source/system_ARMCM55.c.obj: \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cortex-dfp/Device/ARMCM55/Source/system_ARMCM55.c \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cortex-dfp/Device/ARMCM55/Include/ARMCM55.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6/CMSIS/Core/Include/core_cm55.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6/CMSIS/Core/Include/cmsis_version.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6/CMSIS/Core/Include/cmsis_compiler.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6/CMSIS/Core/Include/cmsis_gcc.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/arm_acle.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6/CMSIS/Core/Include/m-profile/cmsis_gcc_m.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6/CMSIS/Core/Include/m-profile/armv8m_mpu.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6/CMSIS/Core/Include/m-profile/armv8m_pmu.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6/CMSIS/Core/Include/m-profile/armv7m_cachel1.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cortex-dfp/Device/ARMCM55/Include/system_ARMCM55.h

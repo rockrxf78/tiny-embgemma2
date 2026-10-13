@@ -1,0 +1,2 @@
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ar qc ../lib/libhal_display_stubs.a CMakeFiles/hal_display_stubs.dir/source/hal_display_stubs.c.obj
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ranlib ../lib/libhal_display_stubs.a

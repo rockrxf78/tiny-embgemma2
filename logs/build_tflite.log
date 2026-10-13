@@ -1,0 +1,136 @@
+== 1. 导出全 INT8 TFLite
+{
+ "T": 16,
+ "input_ids": {
+  "shape": [
+   1,
+   16
+  ],
+  "dtype": "int32"
+ },
+ "attn_bias": {
+  "shape": [
+   1,
+   1,
+   1,
+   16
+  ],
+  "dtype": "int8",
+  "scale": 0.4563654363155365,
+  "zero_point": 0,
+  "valid_value": 0,
+  "masked_value": -128
+ },
+ "token_embeddings": {
+  "shape": [
+   1,
+   16,
+   128
+  ],
+  "dtype": "int8",
+  "scale": 0.02166460442730761,
+  "zero_point": 0
+ },
+ "size_bytes": 21985064,
+ "n_ops": 271,
+ "ops": [
+  "ADD",
+  "BATCH_MATMUL",
+  "CONCATENATION",
+  "FULLY_CONNECTED",
+  "GATHER",
+  "GELU",
+  "MEAN",
+  "MUL",
+  "RESHAPE",
+  "RSQRT",
+  "SLICE",
+  "SOFTMAX",
+  "TRANSPOSE"
+ ]
+}
+== 2. 数值核对（解释器 vs QSim）与精度评测（解释器，参考内核）
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+output <class 'numpy.int8'> [  1  16 128] scale 0.021664604544639587 zp 0
+token 输出 |TFLite - QSim|: mean=0.856 LSB  p99=4.0  max=20 LSB  (输出量程 ±2.75)
+句向量余弦 TFLite vs QSim: mean=0.99969 min=0.9991
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+/home/ronren/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+[mini_embeddinggemma2_int8_T16.tflite / std] test acc=0.9133 colloquial=0.9201 typo=0.9004 std_typo=0.9947 ood_FA=0.137 auroc=0.9801 thr=0.9315
+[mini_embeddinggemma2_int8_T16.tflite / std+centroid] test acc=0.9125 colloquial=0.9196 typo=0.8993 std_typo=0.9947 ood_FA=0.131 auroc=0.9811 thr=0.9321
+== 3. Vela 编译：U55 / U85 多种配置（Shared_Sram：权重在 Flash/DRAM，arena 在 SRAM）
+u55_32: Total SRAM used 127.27 KiB;CPU operators = 1 (0.3%);NPU operators = 298 (99.7%);
+u55_64: Total SRAM used 127.27 KiB;CPU operators = 1 (0.3%);NPU operators = 298 (99.7%);
+u55_128: Total SRAM used 127.27 KiB;CPU operators = 1 (0.3%);NPU operators = 298 (99.7%);
+u55_256: Total SRAM used 127.27 KiB;CPU operators = 1 (0.3%);NPU operators = 298 (99.7%);
+u85_128: Total SRAM used 100.02 KiB;CPU operators = 0 (0.0%);NPU operators = 245 (100.0%);
+u85_256: Total SRAM used 100.02 KiB;CPU operators = 0 (0.0%);NPU operators = 245 (100.0%);
+u85_512: Total SRAM used 100.02 KiB;CPU operators = 0 (0.0%);NPU operators = 245 (100.0%);
+u85_1024: Total SRAM used 100.02 KiB;CPU operators = 0 (0.0%);NPU operators = 245 (100.0%);
+u85_2048: Total SRAM used 100.02 KiB;CPU operators = 0 (0.0%);NPU operators = 245 (100.0%);
+== 4. Corstone FVP 真机级验证（需要先按 fvp/README 构建两个动态加载固件）
+[u55] NPU(FVP) 句子数=300/300  top-1: NPU=0.9167  解释器(同批)=0.9167  两者预测一致率=1.0000  句向量余弦 NPU vs 解释器: mean=0.99965 min=0.9980
+[u85] NPU(FVP) 句子数=300/300  top-1: NPU=0.9167  解释器(同批)=0.9167  两者预测一致率=1.0000  句向量余弦 NPU vs 解释器: mean=0.99965 min=0.9980

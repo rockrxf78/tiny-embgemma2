@@ -1,0 +1,28 @@
+{
+ "std": {
+  "acc_all": 0.9132841328413284,
+  "acc_colloquial": 0.9200719609354922,
+  "acc_asr_typo": 0.900385749943272,
+  "acc_standard_typo": 0.9946524064171123,
+  "thr": 0.9314669966697693,
+  "val_acc": 0.9335955576122166,
+  "test_recall@thr": 0.9418819188191881,
+  "test_acc_accepted": 0.9321743388834476,
+  "ood_false_accept": 0.13690476190476192,
+  "auroc_in_vs_ood": 0.9801430575689686,
+  "ood_val_false_accept": 0.125
+ },
+ "std+centroid": {
+  "acc_all": 0.9124769372693727,
+  "acc_colloquial": 0.9195579542534053,
+  "acc_asr_typo": 0.8992511912865895,
+  "acc_standard_typo": 0.9946524064171123,
+  "thr": 0.9320992827415466,
+  "val_acc": 0.934289680703378,
+  "test_recall@thr": 0.9433809963099631,
+  "test_acc_accepted": 0.9315487104265983,
+  "ood_false_accept": 0.13095238095238096,
+  "auroc_in_vs_ood": 0.9811228804252328,
+  "ood_val_false_accept": 0.115625
+ }
+}

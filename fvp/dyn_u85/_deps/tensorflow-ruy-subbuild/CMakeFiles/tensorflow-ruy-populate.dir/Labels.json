@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/CMakeFiles/tensorflow-ruy-populate"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/CMakeFiles/tensorflow-ruy-populate.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/CMakeFiles/tensorflow-ruy-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-build.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-download.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-install.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-test.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/tensorflow-ruy-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tensorflow-ruy-populate"
+		],
+		"name" : "tensorflow-ruy-populate"
+	}
+}

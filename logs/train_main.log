@@ -1,0 +1,25 @@
+init: {'dev_cos_teacher': 0.976624608039856, 'dev_acc[std]': 0.5506709856547894, 'dev_acc[std+centroid]': 0.6975937066173068}
+step   1000 loss=2.0502 mnrl=0.7957 mse=0.06272 lr=2.97e-04 59s
+step   2000 loss=2.0070 mnrl=0.8409 mse=0.05831 lr=2.89e-04 116s
+  eval: {'dev_cos_teacher': 0.9405, 'dev_acc[std]': 0.9301, 'dev_acc[std+centroid]': 0.9308}
+step   3000 loss=1.8663 mnrl=0.7423 mse=0.05620 lr=2.76e-04 174s
+step   4000 loss=1.8971 mnrl=0.7937 mse=0.05517 lr=2.58e-04 231s
+  eval: {'dev_cos_teacher': 0.9399, 'dev_acc[std]': 0.9315, 'dev_acc[std+centroid]': 0.9313}
+step   5000 loss=1.8372 mnrl=0.7601 mse=0.05386 lr=2.37e-04 289s
+step   6000 loss=1.8818 mnrl=0.8160 mse=0.05329 lr=2.12e-04 346s
+  eval: {'dev_cos_teacher': 0.9397, 'dev_acc[std]': 0.9269, 'dev_acc[std+centroid]': 0.9278}
+step   7000 loss=1.8135 mnrl=0.7616 mse=0.05260 lr=1.85e-04 404s
+step   8000 loss=1.8604 mnrl=0.7902 mse=0.05351 lr=1.58e-04 461s
+  eval: {'dev_cos_teacher': 0.9397, 'dev_acc[std]': 0.9299, 'dev_acc[std+centroid]': 0.9313}
+step   9000 loss=1.8186 mnrl=0.7764 mse=0.05211 lr=1.30e-04 520s
+step  10000 loss=1.8357 mnrl=0.7659 mse=0.05349 lr=1.03e-04 577s
+  eval: {'dev_cos_teacher': 0.9397, 'dev_acc[std]': 0.9306, 'dev_acc[std+centroid]': 0.9317}
+step  11000 loss=1.8318 mnrl=0.7878 mse=0.05220 lr=7.84e-05 635s
+step  12000 loss=1.8064 mnrl=0.7878 mse=0.05093 lr=5.68e-05 693s
+  eval: {'dev_cos_teacher': 0.9396, 'dev_acc[std]': 0.9315, 'dev_acc[std+centroid]': 0.9322}
+step  13000 loss=1.7710 mnrl=0.7582 mse=0.05064 lr=3.90e-05 752s
+step  14000 loss=1.8053 mnrl=0.7796 mse=0.05128 lr=2.59e-05 809s
+  eval: {'dev_cos_teacher': 0.9397, 'dev_acc[std]': 0.9294, 'dev_acc[std+centroid]': 0.9301}
+step  15000 loss=1.7461 mnrl=0.7428 mse=0.05017 lr=1.77e-05 868s
+step  16000 loss=1.7443 mnrl=0.7412 mse=0.05016 lr=1.50e-05 924s
+  eval: {'dev_cos_teacher': 0.9398, 'dev_acc[std]': 0.9304, 'dev_acc[std+centroid]': 0.9315}

@@ -1,0 +1,2 @@
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ar qc ../lib/libcmsis_device.a CMakeFiles/cmsis_device.dir/source/handlers.c.obj "CMakeFiles/cmsis_device.dir/__/__/__/__/__/dependencies/cortex-dfp/Device/ARMCM85/Source/system_ARMCM85.c.obj" "CMakeFiles/cmsis_device.dir/__/__/__/__/__/dependencies/cortex-dfp/Device/ARMCM85/Source/startup_ARMCM85.c.obj"
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ranlib ../lib/libcmsis_device.a

@@ -1,0 +1,2 @@
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ar qc ../lib/libethosu_uart_dummy.a CMakeFiles/ethosu_uart_dummy.dir/src/uart_dummy.c.obj
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ranlib ../lib/libethosu_uart_dummy.a

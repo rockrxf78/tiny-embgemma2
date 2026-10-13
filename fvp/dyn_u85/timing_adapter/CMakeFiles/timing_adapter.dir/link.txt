@@ -1,0 +1,2 @@
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ar qc ../lib/libtiming_adapter.a CMakeFiles/timing_adapter.dir/src/timing_adapter.c.obj
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ranlib ../lib/libtiming_adapter.a

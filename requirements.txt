@@ -1,0 +1,16 @@
+# torch 需要 CUDA 13 的 aarch64/x86_64 wheel：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu130
+# 教师 google/embeddinggemma-2 的 `embedding_gemma2` 架构需要 transformers>=5.18
+torch==2.14.1
+transformers==5.19.0
+sentence-transformers==6.1.0   # 仅用于对照官方用法；核心流程不依赖
+numpy==2.5.3
+scikit-learn==1.9.1
+safetensors==0.8.0
+tokenizers==0.23.2
+sentencepiece==0.2.2
+huggingface_hub==1.33.0
+accelerate==1.15.0
+pypinyin==0.55.0     # ASR 同音/近音错字生成
+jieba==0.42.1        # 词频（同音字加权、词表补全、词拼接语料）
+pillow==12.3.0       # 官方多模态 processor 的导入依赖

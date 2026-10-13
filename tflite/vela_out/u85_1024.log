@@ -1,0 +1,31 @@
+
+Network summary for mini_embeddinggemma2_int8_T16
+Accelerator configuration              Ethos_U85_1024
+System configuration             Ethos_U85_SYS_DRAM_Low
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                      14.90 GB/s
+Design peak DRAM bandwidth                       3.49 GB/s
+
+Total SRAM used                                100.02 KiB
+Total DRAM used                              20269.41 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 245 (100.0%)
+
+Average SRAM bandwidth                           1.33 GB/s
+Input   SRAM bandwidth                           5.07 MB/batch
+Weight  SRAM bandwidth                           0.07 MB/batch
+Output  SRAM bandwidth                           3.56 MB/batch
+Total   SRAM bandwidth                           8.70 MB/batch
+Total   SRAM bandwidth            per input      8.70 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.70 GB/s
+Input   DRAM bandwidth                           0.05 MB/batch
+Weight  DRAM bandwidth                          10.81 MB/batch
+Output  DRAM bandwidth                           0.00 MB/batch
+Total   DRAM bandwidth                          11.10 MB/batch
+Total   DRAM bandwidth            per input     11.10 MB/inference (batch size 1)
+
+Neural network macs                         201016576 MACs/batch
+

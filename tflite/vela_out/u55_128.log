@@ -1,0 +1,34 @@
+
+Warning (supported operators) operator: GATHER, ofm: 'x0'
+Reason: Unsupported opType
+
+Network summary for mini_embeddinggemma2_int8_T16
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       3.73 GB/s
+Design peak Off-chip Flash bandwidth             0.47 GB/s
+
+Total SRAM used                                127.27 KiB
+Total Off-chip Flash used                    11334.17 KiB
+
+CPU operators = 1 (0.3%)
+NPU operators = 298 (99.7%)
+
+Average SRAM bandwidth                           0.41 GB/s
+Input   SRAM bandwidth                           7.51 MB/batch
+Weight  SRAM bandwidth                           0.01 MB/batch
+Output  SRAM bandwidth                           4.43 MB/batch
+Total   SRAM bandwidth                          11.95 MB/batch
+Total   SRAM bandwidth            per input     11.95 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.39 GB/s
+Input   Off-chip Flash bandwidth                 0.32 MB/batch
+Weight  Off-chip Flash bandwidth                10.77 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                11.33 MB/batch
+Total   Off-chip Flash bandwidth  per input     11.33 MB/inference (batch size 1)
+
+Neural network macs                         200865792 MACs/batch
+

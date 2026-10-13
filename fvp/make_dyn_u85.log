@@ -1,0 +1,546 @@
+[  0%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_abs_f32.c.obj
+[  0%] Building C object uart/CMakeFiles/ethosu_uart_cmsdk_apb.dir/src/uart_cmsdk_apb.c.obj
+[  0%] Building C object camera/CMakeFiles/hal_camera_static_images.dir/source/hal_camera_static.c.obj
+[  1%] Building C object cmsis_device/CMakeFiles/cmsis_device.dir/source/handlers.c.obj
+[  1%] Building C object timing_adapter/CMakeFiles/timing_adapter.dir/src/timing_adapter.c.obj
+[  2%] Building C object display/source/hdlcd_mps4/CMakeFiles/hal_display_mps4.dir/hal_display_mps4.c.obj
+[  2%] Building C object cmsis_device/CMakeFiles/cmsis_device.dir/__/__/__/__/__/dependencies/cortex-dfp/Device/ARMCM85/Source/system_ARMCM85.c.obj
+[  2%] Linking C static library ../lib/libethosu_uart_cmsdk_apb.a
+[  2%] Linking C static library ../lib/libtiming_adapter.a
+[  2%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_add_f32.c.obj
+[  3%] Building C object camera/CMakeFiles/hal_camera_static_images.dir/source/hal_camera_static_external.c.obj
+[  3%] Built target ethosu_uart_cmsdk_apb
+[  3%] Linking C static library ../../../lib/libhal_display_mps4.a
+[  3%] Built target timing_adapter
+[  3%] Building C object cmsis_device/CMakeFiles/cmsis_device.dir/__/__/__/__/__/dependencies/cortex-dfp/Device/ARMCM85/Source/startup_ARMCM85.c.obj
+[  3%] Linking C static library ../lib/libhal_camera_static_images.a
+[  3%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_clip_f32.c.obj
+[  4%] Building C object audio/CMakeFiles/hal_audio_static_streams.dir/source/hal_audio_static.c.obj
+[  4%] Building C object ethos-u-driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_driver.c.obj
+[  4%] Built target hal_display_mps4
+[  4%] Built target hal_camera_static_images
+[  5%] Building C object npu_ta/CMakeFiles/ethos_u_ta.dir/ethosu_ta_init.c.obj
+[  5%] Building C object audio/CMakeFiles/hal_audio_static_streams.dir/source/hal_audio_static_external.c.obj
+[  5%] Linking C static library ../lib/libcmsis_device.a
+[  5%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_dot_prod_f32.c.obj
+[  5%] Building C object uart/CMakeFiles/ethosu_uart_pl011.dir/src/uart_pl011.c.obj
+[  5%] Linking C static library ../lib/libethos_u_ta.a
+[  5%] Built target cmsis_device
+[  5%] Linking C static library ../lib/libhal_audio_static_streams.a
+[  5%] Building C object ethos-u-driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_pmu.c.obj
+[  5%] Building C object uart/CMakeFiles/ethosu_uart_dummy.dir/src/uart_dummy.c.obj
+[  6%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_mult_f32.c.obj
+[  6%] Linking C static library ../lib/libethosu_uart_pl011.a
+[  6%] Built target ethos_u_ta
+[  6%] Built target hal_audio_static_streams
+[  7%] Linking C static library ../lib/libethosu_uart_dummy.a
+[  7%] Building C object display/CMakeFiles/hal_display_stubs.dir/source/hal_display_stubs.c.obj
+[  7%] Built target ethosu_uart_pl011
+[  7%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_elementwise_add_s16.c.obj
+[  7%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_elementwise_add_s8.c.obj
+[  7%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_negate_f32.c.obj
+[  7%] Built target ethosu_uart_dummy
+[  7%] Building C object ethos-u-driver/CMakeFiles/ethosu_core_driver.dir/src/ethosu_device_u85.c.obj
+[  7%] Linking C static library ../lib/libhal_display_stubs.a
+[  7%] Building C object stdout/CMakeFiles/stdout_retarget_cmsdk.dir/source/retarget.c.obj
+[  7%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_elementwise_mul_acc_s16.c.obj
+[  7%] Built target hal_display_stubs
+[  7%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_offset_f32.c.obj
+[  8%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_elementwise_mul_s16_batch_offset.c.obj
+[  7%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_elementwise_mul_s16.c.obj
+[  9%] Linking C static library ../lib/libstdout_retarget_cmsdk.a
+[ 10%] Linking C static library ../lib/libethosu_core_driver.a
+[ 10%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_elementwise_mul_s16_s8.c.obj
+[ 10%] Built target stdout_retarget_cmsdk
+[ 10%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_scale_f32.c.obj
+[ 10%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/BasicMathFunctions/arm_sub_f32.c.obj
+[ 10%] Built target ethosu_core_driver
+[ 10%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_elementwise_mul_s8.c.obj
+[ 10%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_maximum_s8.c.obj
+[ 10%] Building C object stdout/CMakeFiles/stdout_retarget_pl011.dir/source/retarget.c.obj
+[ 11%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/BasicMathFunctions/arm_minimum_s8.c.obj
+[ 13%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/ComplexMathFunctions/arm_cmplx_conj_f32.c.obj
+[ 13%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConcatenationFunctions/arm_concatenation_s8_w.c.obj
+[ 13%] Building C object npu/CMakeFiles/ethos_u_npu.dir/ethosu_npu_init.c.obj
+[ 13%] Linking C static library ../lib/libstdout_retarget_pl011.a
+[ 13%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c.obj
+[ 13%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConcatenationFunctions/arm_concatenation_s8_x.c.obj
+[ 13%] Built target stdout_retarget_pl011
+[ 13%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConcatenationFunctions/arm_concatenation_s8_y.c.obj
+[ 13%] Building C object npu/CMakeFiles/ethos_u_npu.dir/ethosu_profiler.c.obj
+[ 13%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConcatenationFunctions/arm_concatenation_s8_z.c.obj
+[ 13%] Building C object npu/CMakeFiles/ethos_u_npu.dir/ethosu_cpu_cache.c.obj
+[ 14%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_fully_connected_s4.c.obj
+[ 14%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/ComplexMathFunctions/arm_cmplx_mag_f32.c.obj
+[ 14%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c.obj
+[ 14%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_batch_matmul_s8.c.obj
+[ 14%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s8.c.obj
+[ 14%] Linking C static library ../lib/libethos_u_npu.a
+[ 14%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_fully_connected_per_channel_s8.c.obj
+[ 14%] Built target ethos_u_npu
+[ 16%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c.obj
+[ 16%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_fully_connected_s8.c.obj
+[ 16%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_fully_connected_wrapper_s8.c.obj
+[ 16%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_vector_sum_s8.c.obj
+[ 16%] Building C object platform_driver/CMakeFiles/platform_drivers.dir/source/timer_mps4.c.obj
+[ 16%] Building C object platform_driver/CMakeFiles/platform_drivers.dir/source/hdlcd_drv.c.obj
+[ 16%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/ComplexMathFunctions/arm_cmplx_mult_real_f32.c.obj
+[ 16%] Building C object platform_driver/CMakeFiles/platform_drivers.dir/source/platform_drivers.c.obj
+[ 16%] Building C object platform_driver/CMakeFiles/platform_drivers.dir/__/__/components/cmsis_device/source/handlers.c.obj
+[ 17%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_batch_matmul_s16.c.obj
+[ 17%] Building C object platform_driver/CMakeFiles/platform_drivers.dir/__/__/components/stdout/source/retarget.c.obj
+[ 17%] Building C object platform_driver/CMakeFiles/platform_drivers.dir/__/__/components/npu/ethosu_cpu_cache.c.obj
+[ 17%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/FastMathFunctions/arm_cos_f32.c.obj
+[ 17%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s16.c.obj
+[ 17%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/FastMathFunctions/arm_sin_f32.c.obj
+[ 18%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_fully_connected_s16.c.obj
+[ 18%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_vector_sum_s8_s64.c.obj
+[ 18%] Linking C static library ../lib/libplatform_drivers.a
+[ 18%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_1_x_n_s4.c.obj
+[ 18%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_1x1_s4.c.obj
+[ 18%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/FastMathFunctions/arm_vlog_f32.c.obj
+[ 18%] Built target platform_drivers
+[ 19%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/FastMathFunctions/arm_vexp_f32.c.obj
+[ 20%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_1x1_s4_fast.c.obj
+[ 20%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/FastMathFunctions/arm_atan2_f32.c.obj
+[ 20%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_even_s4.c.obj
+[ 20%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_kullback_leibler_f32.c.obj
+[ 20%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_entropy_f32.c.obj
+[ 21%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c.obj
+[ 21%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_logsumexp_f32.c.obj
+[ 21%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_max_f32.c.obj
+[ 21%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_get_buffer_sizes_s4.c.obj
+[ 21%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_s4.c.obj
+[ 21%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_max_no_idx_f32.c.obj
+[ 21%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_min_no_idx_f32.c.obj
+[ 22%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_mean_f32.c.obj
+[ 22%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_min_f32.c.obj
+[ 22%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_power_f32.c.obj
+[ 22%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_wrapper_s4.c.obj
+[ 23%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s4.c.obj
+[ 23%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_rms_f32.c.obj
+[ 23%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_s4.c.obj
+[ 25%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_std_f32.c.obj
+[ 25%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_s4_opt.c.obj
+[ 25%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s4.c.obj
+[ 25%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s4_s16.c.obj
+[ 25%] Building C object mlek-hal/CMakeFiles/hal.dir/source/hal.c.obj
+[ 26%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_var_f32.c.obj
+[ 26%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c.obj
+[ 26%] Building C object mlek-hal/CMakeFiles/hal.dir/source/hal_pmu.c.obj
+[ 27%] Building C object mlek-hal/CMakeFiles/hal.dir/source/components/cmsis_device/source/handlers.c.obj
+[ 27%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_absmax_f32.c.obj
+[ 27%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_1x1_s8.c.obj
+[ 27%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_absmin_f32.c.obj
+[ 27%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c.obj
+[ 27%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_absmax_no_idx_f32.c.obj
+[ 27%] Building C object mlek-hal/CMakeFiles/hal.dir/source/components/stdout/source/retarget.c.obj
+[ 28%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_absmin_no_idx_f32.c.obj
+[ 28%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_mse_f32.c.obj
+[ 28%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/StatisticsFunctions/arm_accumulate_f32.c.obj
+[ 28%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_get_buffer_sizes_s8.c.obj
+[ 28%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_bitreversal.c.obj
+[ 28%] Building C object mlek-hal/CMakeFiles/hal.dir/source/components/npu/ethosu_cpu_cache.c.obj
+[ 29%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c.obj
+[ 29%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_s8.c.obj
+[ 29%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_bitreversal2.c.obj
+[ 29%] Linking C static library ../lib/libhal.a
+[ 29%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c.obj
+[ 29%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s8.c.obj
+[ 29%] Built target hal
+[ 29%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_cfft_radix4_f32.c.obj
+[ 30%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_cfft_radix2_f32.c.obj
+[ 30%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c.obj
+[ 30%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_cfft_radix8_f32.c.obj
+[ 30%] Building CXX object profiler/CMakeFiles/profiler.dir/Profiler.cc.obj
+[ 31%] Building C object profiler/CMakeFiles/profiler.dir/__/__/hal/source/components/cmsis_device/source/handlers.c.obj
+[ 31%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_cfft_f32.c.obj
+[ 32%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_cfft_init_f32.c.obj
+[ 33%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c.obj
+[ 33%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s8.c.obj
+[ 33%] Building C object profiler/CMakeFiles/profiler.dir/__/__/hal/source/components/stdout/source/retarget.c.obj
+[ 33%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c.obj
+[ 33%] Building C object profiler/CMakeFiles/profiler.dir/__/__/hal/source/components/npu/ethosu_cpu_cache.c.obj
+[ 33%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_row_offset_s8_s16.c.obj
+[ 33%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_cfft_radix4_init_f32.c.obj
+[ 33%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_rfft_fast_f32.c.obj
+[ 34%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c.obj
+[ 34%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c.obj
+[ 34%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_transpose_conv_get_buffer_sizes_s8.c.obj
+[ 34%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_transpose_conv_s8.c.obj
+[ 34%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_transpose_conv_wrapper_s8.c.obj
+[ 34%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_rfft_fast_init_f32.c.obj
+[ 35%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_get_buffer_sizes_s16.c.obj
+[ 35%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_s16.c.obj
+[ 35%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_convolve_wrapper_s16.c.obj
+[ 35%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_fast_s16.c.obj
+[ 36%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_get_buffer_sizes_s16.c.obj
+[ 36%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_mfcc_init_f32.c.obj
+[ 38%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_mfcc_f32.c.obj
+[ 38%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_s16.c.obj
+[ 38%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_depthwise_conv_wrapper_s16.c.obj
+[ 38%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s16.c.obj
+[ 38%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/TransformFunctions/arm_transform_buffer_sizes.c.obj
+[ 38%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ActivationFunctions/arm_relu6_s8.c.obj
+[ 39%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ActivationFunctions/arm_nn_activation_s16.c.obj
+[ 39%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ActivationFunctions/arm_relu_q7.c.obj
+[ 39%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ActivationFunctions/arm_relu_q15.c.obj
+[ 39%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/PoolingFunctions/arm_avgpool_get_buffer_sizes_s8.c.obj
+[ 39%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/PoolingFunctions/arm_avgpool_s8.c.obj
+[ 39%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/CommonTables/arm_common_tables.c.obj
+[ 40%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/PoolingFunctions/arm_max_pool_s8.c.obj
+[ 40%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/CommonTables/arm_const_structs.c.obj
+[ 40%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/PoolingFunctions/arm_avgpool_get_buffer_sizes_s16.c.obj
+[ 40%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/PoolingFunctions/arm_avgpool_s16.c.obj
+[ 40%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/PoolingFunctions/arm_max_pool_s16.c.obj
+[ 41%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/SoftmaxFunctions/arm_nn_softmax_common_s8.c.obj
+[ 41%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/SoftmaxFunctions/arm_softmax_s8.c.obj
+[ 41%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/SoftmaxFunctions/arm_softmax_s8_s16.c.obj
+[ 41%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/SoftmaxFunctions/arm_softmax_s16.c.obj
+[ 41%] Linking CXX static library ../lib/libprofiler.a
+[ 41%] Built target profiler
+[ 42%] Building C object cmsis-dsp/CMakeFiles/CMSISDSP.dir/CommonTables/arm_mve_tables.c.obj
+[ 42%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/SVDFunctions/arm_svdf_get_buffer_sizes_s8.c.obj
+[ 43%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/LSTMFunctions/arm_lstm_unidirectional_s8.c.obj
+[ 43%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/SVDFunctions/arm_svdf_s8.c.obj
+[ 43%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/SVDFunctions/arm_svdf_state_s16_s8.c.obj
+[ 43%] Linking C static library ../lib/libCMSISDSP.a
+[ 43%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/LSTMFunctions/arm_lstm_unidirectional_s16.c.obj
+[ 44%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/ReshapeFunctions/arm_reshape_s8.c.obj
+[ 44%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/PadFunctions/arm_pad_s8.c.obj
+[ 44%] Built target CMSISDSP
+[ 44%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/TransposeFunctions/arm_transpose_s8.c.obj
+[ 44%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s4.c.obj
+[ 44%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s4.c.obj
+[ 45%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_mat_mult_nt_interleaved_t_even_s4.c.obj
+[ 46%] Building CXX object mlek-lib/mlek/math/CMakeFiles/arm_math.dir/PlatformMath.cc.obj
+[ 46%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s4.c.obj
+[ 46%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s4.c.obj
+[ 46%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c.obj
+[ 47%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c.obj
+[ 47%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_lstm_calculate_gate_s8_s16.c.obj
+[ 47%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_lstm_step_s8.c.obj
+[ 47%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c.obj
+[ 47%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c.obj
+[ 48%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c.obj
+[ 48%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8_s32.c.obj
+[ 48%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_transpose_conv_row_s8_s32.c.obj
+[ 48%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_vec_mat_mul_result_acc_s8_s16.c.obj
+[ 48%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_per_ch_s8.c.obj
+[ 50%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c.obj
+[ 50%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_svdf_s8.c.obj
+[ 50%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_s8_to_s16_unordered_with_offset.c.obj
+[ 50%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s16.c.obj
+[ 50%] Linking CXX static library ../../../lib/libarm_math.a
+[ 51%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_lstm_calculate_gate_s16.c.obj
+[ 51%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_lstm_step_s16.c.obj
+[ 51%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s16.c.obj
+[ 51%] Built target arm_math
+[ 51%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_vec_mat_mul_result_acc_s16.c.obj
+[ 51%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16.c.obj
+[ 52%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nntables.c.obj
+[ 52%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s16_s16.c.obj
+[ 52%] Building C object mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c.obj
+[ 52%] Building CXX object mlek-lib/mlek/common/CMakeFiles/common_api.dir/Classifier.cc.obj
+[ 52%] Building CXX object mlek-lib/mlek/common/CMakeFiles/common_api.dir/AudioRenderUtils.cc.obj
+[ 52%] Building CXX object mlek-lib/mlek/common/CMakeFiles/common_api.dir/Mfcc.cc.obj
+[ 53%] Building CXX object mlek-lib/mlek/common/CMakeFiles/common_api.dir/MelSpectrogram.cc.obj
+[ 53%] Building CXX object mlek-lib/mlek/common/CMakeFiles/common_api.dir/ImageUtils.cc.obj
+[ 53%] Linking C static library ../../../../../lib/libcmsis-nn.a
+[ 53%] Built target cmsis-nn
+[ 53%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/add.cc.obj
+In file included from /home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc:21:
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc: In instantiation of 'std::vector<float> arm::app::audio::MelSpectrogram::ComputeMelSpec(const std::vector<T>&, float) [with T = float]':
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc:279:5:   required from here
+  279 |     );
+      |     ^
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc:232:17: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  232 |                 "Audio data length %zu does not match expected from length %u",
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  233 |                 audioData.size(),
+  234 |                 this->m_params.m_frameLen
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                uint32_t {aka long unsigned int}
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/log/log_macros.h:80:12: note: in definition of macro 'printf_err'
+   80 |     printf(__VA_ARGS__)
+      |            ^~~~~~~~~~~
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc:232:77: note: format string is defined here
+  232 |                 "Audio data length %zu does not match expected from length %u",
+      |                                                                            ~^
+      |                                                                             |
+      |                                                                             unsigned int
+      |                                                                            %lu
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc: In instantiation of 'std::vector<float> arm::app::audio::MelSpectrogram::ComputeMelSpec(const std::vector<T>&, float) [with T = short int]':
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc:284:5:   required from here
+  284 |     );
+      |     ^
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc:232:17: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  232 |                 "Audio data length %zu does not match expected from length %u",
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  233 |                 audioData.size(),
+  234 |                 this->m_params.m_frameLen
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                |
+      |                                uint32_t {aka long unsigned int}
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/log/log_macros.h:80:12: note: in definition of macro 'printf_err'
+   80 |     printf(__VA_ARGS__)
+      |            ^~~~~~~~~~~
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/common/MelSpectrogram.cc:232:77: note: format string is defined here
+  232 |                 "Audio data length %zu does not match expected from length %u",
+      |                                                                            ~^
+      |                                                                             |
+      |                                                                             unsigned int
+      |                                                                            %lu
+[ 54%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc.obj
+[ 54%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/conv.cc.obj
+[ 54%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/fully_connected.cc.obj
+[ 54%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc.obj
+[ 55%] Linking CXX static library ../../../lib/libcommon_api.a
+[ 55%] Built target common_api
+[ 55%] Building CXX object mlek-lib/mlek/use_case/asr/CMakeFiles/asr_api.dir/AsrClassifier.cc.obj
+In file included from /home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/use_case/asr/AsrClassifier.cc:21:
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/use_case/asr/AsrClassifier.cc: In member function 'virtual bool arm::app::AsrClassifier::GetClassificationResults(std::shared_ptr<arm::app::fwk::iface::TensorIface>, std::vector<arm::app::ClassificationResult>&, const std::vector<std::__cxx11::basic_string<char> >&, uint32_t, bool)':
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/use_case/asr/AsrClassifier.cc:114:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  114 |                 printf_err("Output tensor expected to be %dD\n", minTensorDims);
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~
+      |                                                                  |
+      |                                                                  long unsigned int
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/log/log_macros.h:80:12: note: in definition of macro 'printf_err'
+   80 |     printf(__VA_ARGS__)
+      |            ^~~~~~~~~~~
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/use_case/asr/AsrClassifier.cc:114:59: note: format string is defined here
+  114 |                 printf_err("Output tensor expected to be %dD\n", minTensorDims);
+      |                                                          ~^
+      |                                                           |
+      |                                                           int
+      |                                                          %ld
+[ 55%] Building CXX object mlek-lib/mlek/use_case/asr/CMakeFiles/asr_api.dir/ConformerMelSpectrogram.cc.obj
+[ 56%] Building CXX object mlek-lib/mlek/use_case/asr/CMakeFiles/asr_api.dir/ConformerProcessing.cc.obj
+[ 56%] Building CXX object mlek-lib/mlek/use_case/asr/CMakeFiles/asr_api.dir/OutputDecode.cc.obj
+[ 56%] Building CXX object mlek-lib/mlek/use_case/asr/CMakeFiles/asr_api.dir/Wav2LetterMfcc.cc.obj
+[ 56%] Building CXX object mlek-lib/mlek/use_case/asr/CMakeFiles/asr_api.dir/Wav2LetterPreprocess.cc.obj
+[ 56%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/maximum_minimum.cc.obj
+[ 57%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/mul.cc.obj
+[ 57%] Building CXX object mlek-lib/mlek/use_case/asr/CMakeFiles/asr_api.dir/Wav2LetterPostprocess.cc.obj
+[ 57%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pad.cc.obj
+[ 57%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/pooling.cc.obj
+[ 57%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc.obj
+[ 58%] Linking CXX static library ../../../../lib/libasr_api.a
+[ 58%] Built target asr_api
+[ 59%] Building CXX object mlek-lib/mlek/use_case/kws/CMakeFiles/kws_api.dir/KwsProcessing.cc.obj
+[ 59%] Building CXX object mlek-lib/mlek/use_case/kws/CMakeFiles/kws_api.dir/KwsClassifier.cc.obj
+[ 59%] Linking CXX static library ../../../../lib/libkws_api.a
+[ 59%] Built target kws_api
+[ 59%] Building CXX object mlek-lib/mlek/use_case/noise_reduction/CMakeFiles/noise_reduction_api.dir/RNNoiseProcessing.cc.obj
+[ 60%] Building CXX object mlek-lib/mlek/use_case/noise_reduction/CMakeFiles/noise_reduction_api.dir/RNNoiseFeatureProcessor.cc.obj
+[ 61%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose.cc.obj
+[ 61%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc.obj
+[ 61%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc.obj
+[ 61%] Linking CXX static library ../../../../lib/libnoise_reduction_api.a
+[ 61%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/unidirectional_sequence_lstm.cc.obj
+[ 61%] Built target noise_reduction_api
+[ 61%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/ethos_u/ethosu.cc.obj
+[ 63%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/cortex_m_generic/debug_log.cc.obj
+[ 63%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/cortex_m_generic/micro_time.cc.obj
+[ 63%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/fake_micro_context.cc.obj
+[ 63%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc.obj
+[ 63%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/hexdump.cc.obj
+[ 64%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/memory_helpers.cc.obj
+[ 64%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc.obj
+[ 64%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_allocator.cc.obj
+[ 64%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_context.cc.obj
+[ 65%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_interpreter.cc.obj
+[ 65%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_interpreter_context.cc.obj
+[ 65%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_interpreter_graph.cc.obj
+[ 65%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_log.cc.obj
+[ 65%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_op_resolver.cc.obj
+[ 66%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_profiler.cc.obj
+[ 66%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_resource_variable.cc.obj
+[ 66%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/micro_utils.cc.obj
+[ 66%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/mock_micro_graph.cc.obj
+[ 67%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/recording_micro_allocator.cc.obj
+[ 67%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/system_setup.cc.obj
+[ 67%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/test_helper_custom_ops.cc.obj
+[ 67%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/test_helpers.cc.obj
+[ 67%] Building CXX object mlek-lib/mlek/use_case/img_class/CMakeFiles/img_class_api.dir/ImgClassProcessing.cc.obj
+[ 67%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/arena_allocator/non_persistent_arena_buffer_allocator.cc.obj
+[ 68%] Linking CXX static library ../../../../lib/libimg_class_api.a
+[ 68%] Built target img_class_api
+[ 68%] Building CXX object mlek-lib/mlek/use_case/object_detection/CMakeFiles/object_detection_api.dir/DetectorPreProcessing.cc.obj
+[ 68%] Building CXX object mlek-lib/mlek/use_case/object_detection/CMakeFiles/object_detection_api.dir/DetectorPostProcessing.cc.obj
+[ 69%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.cc.obj
+[ 69%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/arena_allocator/recording_single_arena_buffer_allocator.cc.obj
+[ 69%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.cc.obj
+[ 70%] Linking CXX static library ../../../../lib/libobject_detection_api.a
+[ 70%] Built target object_detection_api
+[ 70%] Building CXX object mlek-lib/mlek/use_case/vww/CMakeFiles/vww_api.dir/VisualWakeWordProcessing.cc.obj
+[ 70%] Building CXX object mlek-lib/mlek/use_case/ad/CMakeFiles/ad_api.dir/AdProcessing.cc.obj
+[ 71%] Linking CXX static library ../../../../lib/libvww_api.a
+[ 71%] Built target vww_api
+[ 71%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cc.obj
+[ 71%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj
+[ 72%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.cc.obj
+[ 72%] Building CXX object mlek-lib/mlek/use_case/ad/CMakeFiles/ad_api.dir/AdMelSpectrogram.cc.obj
+[ 72%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/activations.cc.obj
+[ 72%] Linking CXX static library ../../../../lib/libad_api.a
+[ 72%] Built target ad_api
+[ 72%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/activations_common.cc.obj
+[ 72%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/add_common.cc.obj
+[ 73%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/add_n.cc.obj
+[ 73%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/arg_min_max.cc.obj
+[ 73%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/assign_variable.cc.obj
+[ 73%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/batch_matmul_common.cc.obj
+[ 73%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.cc.obj
+[ 75%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/broadcast_args.cc.obj
+[ 75%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/broadcast_to.cc.obj
+[ 75%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/call_once.cc.obj
+[ 75%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cast.cc.obj
+[ 76%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/ceil.cc.obj
+[ 76%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/circular_buffer.cc.obj
+[ 76%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_common.cc.obj
+[ 76%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_flexbuffers_generated_data.cc.obj
+[ 76%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/comparisons.cc.obj
+[ 77%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/concatenation.cc.obj
+[ 77%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/conv_common.cc.obj
+[ 77%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/conv_test_common.cc.obj
+[ 77%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/cumsum.cc.obj
+[ 78%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/decode.cc.obj
+[ 78%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/decode_state.cc.obj
+[ 78%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/decode_state_huffman.cc.obj
+[ 78%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/decode_state_lut.cc.obj
+[ 78%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/decode_state_prune.cc.obj
+[ 79%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/decompress.cc.obj
+[ 79%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/decompress_common.cc.obj
+[ 79%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/depth_to_space.cc.obj
+[ 79%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.cc.obj
+[ 79%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/dequantize.cc.obj
+[ 80%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/dequantize_common.cc.obj
+[ 80%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess.cc.obj
+[ 80%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess_flexbuffers_generated_data.cc.obj
+[ 80%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/div.cc.obj
+[ 81%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/dynamic_update_slice.cc.obj
+[ 81%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/elementwise.cc.obj
+[ 81%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/elu.cc.obj
+[ 81%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/embedding_lookup.cc.obj
+[ 81%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/exp.cc.obj
+[ 82%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/expand_dims.cc.obj
+[ 82%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/fill.cc.obj
+[ 82%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/floor.cc.obj
+[ 82%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/floor_div.cc.obj
+[ 83%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/floor_mod.cc.obj
+[ 83%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/fully_connected_common.cc.obj
+[ 83%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/gather.cc.obj
+[ 83%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cc.obj
+[ 83%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/hard_swish.cc.obj
+[ 84%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/hard_swish_common.cc.obj
+[ 84%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/if.cc.obj
+[ 84%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/kernel_runner.cc.obj
+[ 84%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/kernel_util.cc.obj
+[ 85%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.cc.obj
+[ 85%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc.obj
+[ 85%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/leaky_relu.cc.obj
+[ 85%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/leaky_relu_common.cc.obj
+[ 85%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/log_softmax.cc.obj
+[ 86%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/logical.cc.obj
+[ 86%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/logical_common.cc.obj
+[ 86%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/logistic.cc.obj
+[ 86%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/logistic_common.cc.obj
+[ 86%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/lstm_eval.cc.obj
+[ 88%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/lstm_eval_common.cc.obj
+[ 88%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/micro_tensor_utils.cc.obj
+[ 88%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc.obj
+[ 88%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/mul_common.cc.obj
+[ 89%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/neg.cc.obj
+[ 89%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/pack.cc.obj
+[ 89%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/pad_common.cc.obj
+[ 89%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/pooling_common.cc.obj
+[ 89%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/prelu.cc.obj
+[ 90%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/prelu_common.cc.obj
+[ 90%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/quantize.cc.obj
+[ 90%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/quantize_common.cc.obj
+[ 90%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/read_variable.cc.obj
+[ 91%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/reduce.cc.obj
+[ 91%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc.obj
+[ 91%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/reshape.cc.obj
+[ 91%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/reshape_common.cc.obj
+[ 91%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/resize_bilinear.cc.obj
+[ 92%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc.obj
+[ 92%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/reverse.cc.obj
+[ 92%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/round.cc.obj
+[ 92%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/select.cc.obj
+[ 93%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/shape.cc.obj
+[ 93%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/slice.cc.obj
+[ 93%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cc.obj
+[ 93%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/space_to_batch_nd.cc.obj
+[ 93%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/space_to_depth.cc.obj
+[ 94%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/split.cc.obj
+[ 94%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/split_v.cc.obj
+[ 94%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc.obj
+[ 94%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/squeeze.cc.obj
+[ 94%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/strided_slice.cc.obj
+[ 95%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cc.obj
+[ 95%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/sub.cc.obj
+[ 95%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/sub_common.cc.obj
+[ 95%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/svdf_common.cc.obj
+[ 96%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/tanh.cc.obj
+[ 96%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/transpose_common.cc.obj
+[ 96%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/unpack.cc.obj
+[ 96%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/var_handle.cc.obj
+[ 96%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/while.cc.obj
+[ 97%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/kernels/zeros_like.cc.obj
+[ 97%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/tflite_bridge/flatbuffer_conversions_bridge.cc.obj
+[ 97%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.cc.obj
+[ 97%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/core/api/flatbuffer_conversions.cc.obj
+[ 98%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/core/api/tensor_utils.cc.obj
+[ 98%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/core/c/common.cc.obj
+[ 98%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/internal/common.cc.obj
+[ 98%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/internal/portable_tensor_utils.cc.obj
+[ 98%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/internal/quantization_util.cc.obj
+[100%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/internal/reference/comparisons.cc.obj
+[100%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/internal/reference/portable_tensor_utils.cc.obj
+[100%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.cc.obj
+[100%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/internal/tensor_ctypes.cc.obj
+[101%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/internal/tensor_utils.cc.obj
+[101%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/kernels/kernel_util.cc.obj
+[101%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/compiler/mlir/lite/core/api/error_reporter.cc.obj
+[101%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/compiler/mlir/lite/schema/schema_utils.cc.obj
+[101%] Building C object mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/hal/source/components/cmsis_device/source/handlers.c.obj
+[102%] Linking CXX static library ../../../../lib/libtflu.a
+[102%] Built target tflu
+[103%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/VisualWakeWordModel.cc.obj
+[103%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/AdModel.cc.obj
+[103%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/MicroNetKwsModel.cc.obj
+[103%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/Wav2LetterModel.cc.obj
+[103%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/YoloFastestModel.cc.obj
+[103%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/TflmTensor.cc.obj
+[104%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/RNNoiseModel.cc.obj
+[104%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/TensorFlowLiteMicro.cc.obj
+[104%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/MobileNetModel.cc.obj
+[104%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/TestModel.cc.obj
+[105%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/TflmModel.cc.obj
+[105%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/TflmResourceVariables.cc.obj
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/fwk/tflm/TflmModel.cc: In function 'std::string arm::app::fwk::tflm::{anonymous}::InferNpuMemoryModeFromEthosUOp(const tflite::Model*)':
+/home/ronren/ml-embedded-evaluation-kit/source/lib/mlek/fwk/tflm/TflmModel.cc:66:43: warning: comparison of integer expressions of different signedness: 'uint32_t' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+   66 |             if (!op || op->opcode_index() != ethos_u_opcode) {
+      |                        ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+[105%] Building CXX object mlek-lib/mlek/fwk/tflm/CMakeFiles/ml_framework_tflm.dir/MicroMutableAllOpsResolver.cc.obj
+[105%] Linking CXX static library ../../../../lib/libml_framework_tflm.a
+[105%] Built target ml_framework_tflm
+[105%] Building CXX object mlek-app/CMakeFiles/inference_runner.dir/main/Main.cc.obj
+[105%] Building C object mlek-app/CMakeFiles/inference_runner.dir/__/hal/source/components/cmsis_device/source/handlers.c.obj
+[105%] Building CXX object mlek-app/CMakeFiles/inference_runner.dir/use_case/inference_runner/src/MainLoop.cc.obj
+[106%] Building C object mlek-app/CMakeFiles/inference_runner.dir/__/hal/source/components/stdout/source/retarget.c.obj
+[106%] Building CXX object mlek-app/CMakeFiles/inference_runner.dir/main/UseCaseCommonUtils.cc.obj
+[106%] Building CXX object mlek-app/CMakeFiles/inference_runner.dir/use_case/inference_runner/src/UseCaseHandler.cc.obj
+[106%] Building C object mlek-app/CMakeFiles/inference_runner.dir/__/hal/source/components/npu/ethosu_cpu_cache.c.obj
+[106%] Linking CXX static library ../lib/libinference_runner.a
+[106%] Built target inference_runner
+[106%] Building CXX object mlek-app/CMakeFiles/mlek_inference_runner.dir/main/Main.cc.obj
+[107%] Building C object mlek-app/CMakeFiles/mlek_inference_runner.dir/__/hal/source/components/cmsis_device/source/handlers.c.obj
+[107%] Building C object mlek-app/CMakeFiles/mlek_inference_runner.dir/__/hal/source/components/npu/ethosu_cpu_cache.c.obj
+[107%] Building C object mlek-app/CMakeFiles/mlek_inference_runner.dir/__/hal/source/components/stdout/source/retarget.c.obj
+[107%] Linking CXX executable ../bin/mlek_inference_runner.axf
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/15.3.1/../../../../arm-none-eabi/bin/ld: warning: ../bin/mlek_inference_runner.axf has a LOAD segment with RWX permissions
+[107%] Built target mlek_inference_runner
+exit 0

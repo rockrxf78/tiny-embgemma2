@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles/tensorflow-flatbuffers-populate"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles/tensorflow-flatbuffers-populate.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/CMakeFiles/tensorflow-flatbuffers-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-build.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-download.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-install.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-test.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/tensorflow-flatbuffers-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tensorflow-flatbuffers-populate"
+		],
+		"name" : "tensorflow-flatbuffers-populate"
+	}
+}

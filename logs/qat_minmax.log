@@ -1,0 +1,25 @@
+PTQ-init: {'dev_cos_fp32': 0.908575713634491, 'dev_acc': 0.8870893105043961}
+step   250 loss=1.8771 mnrl=0.7524 mse_t=0.0535 mse_s=0.0027 160s
+step   500 loss=1.8698 mnrl=0.7645 mse_t=0.0535 mse_s=0.0018 315s
+  eval: {'dev_cos_fp32': 0.997, 'dev_acc': 0.9364}
+step   750 loss=1.8519 mnrl=0.7845 mse_t=0.0517 mse_s=0.0017 553s
+step  1000 loss=1.8634 mnrl=0.7740 mse_t=0.0531 mse_s=0.0013 717s
+  eval: {'dev_cos_fp32': 0.9977, 'dev_acc': 0.9343}
+step  1250 loss=1.8934 mnrl=0.7984 mse_t=0.0535 mse_s=0.0012 876s
+step  1500 loss=1.8233 mnrl=0.7387 mse_t=0.0531 mse_s=0.0012 1046s
+  eval: {'dev_cos_fp32': 0.9979, 'dev_acc': 0.935}
+step  1750 loss=1.8550 mnrl=0.7840 mse_t=0.0524 mse_s=0.0011 1193s
+step  2000 loss=1.8868 mnrl=0.7987 mse_t=0.0534 mse_s=0.0010 1326s
+  eval: {'dev_cos_fp32': 0.9981, 'dev_acc': 0.9352}
+step  2250 loss=1.8775 mnrl=0.7878 mse_t=0.0535 mse_s=0.0009 1508s
+step  2500 loss=1.7742 mnrl=0.7393 mse_t=0.0509 mse_s=0.0009 1676s
+  eval: {'dev_cos_fp32': 0.9981, 'dev_acc': 0.9331}
+step  2750 loss=1.9058 mnrl=0.8112 mse_t=0.0539 mse_s=0.0009 1857s
+step  3000 loss=1.7972 mnrl=0.7585 mse_t=0.0511 mse_s=0.0008 2021s
+  eval: {'dev_cos_fp32': 0.9982, 'dev_acc': 0.935}
+step  3250 loss=1.8758 mnrl=0.8046 mse_t=0.0528 mse_s=0.0007 2202s
+step  3500 loss=1.7902 mnrl=0.7381 mse_t=0.0518 mse_s=0.0008 2360s
+  eval: {'dev_cos_fp32': 0.9982, 'dev_acc': 0.9336}
+step  3750 loss=1.8317 mnrl=0.7663 mse_t=0.0525 mse_s=0.0008 2541s
+step  4000 loss=1.8558 mnrl=0.7980 mse_t=0.0522 mse_s=0.0007 2700s
+  eval: {'dev_cos_fp32': 0.9983, 'dev_acc': 0.9329}

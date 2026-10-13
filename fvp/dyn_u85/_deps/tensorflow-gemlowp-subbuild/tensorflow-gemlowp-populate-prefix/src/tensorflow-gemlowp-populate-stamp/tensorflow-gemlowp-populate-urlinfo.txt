@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/download-tensorflow-gemlowp-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/verify-tensorflow-gemlowp-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/extract-tensorflow-gemlowp-populate.cmake
+source_dir=/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-gemlowp-src
+work_dir=/home/ronren/embgemma2/fvp/dyn_u85/_deps
+url(s)=https://github.com/google/gemmlowp/archive/719139ce755a0f31cbf1c37f7f98adcc7fc9f425.zip
+hash=
+no_extract=
+

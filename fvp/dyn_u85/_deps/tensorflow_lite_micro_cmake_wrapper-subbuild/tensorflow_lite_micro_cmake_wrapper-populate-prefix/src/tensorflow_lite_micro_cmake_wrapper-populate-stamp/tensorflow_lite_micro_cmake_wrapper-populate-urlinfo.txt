@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/download-tensorflow_lite_micro_cmake_wrapper-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/verify-tensorflow_lite_micro_cmake_wrapper-populate.cmake
+source_dir=/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-src
+work_dir=/home/ronren/embgemma2/fvp/dyn_u85/_deps
+url(s)=https://gitlab.arm.com/artificial-intelligence/ethos-u/ethos-u-core-software/-/raw/26.05/tflite_micro.cmake?ref_type=tags&inline=false
+hash=MD5=52985fb8910dbaf034a17f9c6140b9d2
+no_extract=YES
+

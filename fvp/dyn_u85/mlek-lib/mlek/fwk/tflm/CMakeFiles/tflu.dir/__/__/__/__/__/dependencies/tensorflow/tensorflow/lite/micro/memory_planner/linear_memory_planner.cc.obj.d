@@ -1,0 +1,34 @@
+mlek-lib/mlek/fwk/tflm/CMakeFiles/tflu.dir/__/__/__/__/__/dependencies/tensorflow/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc.obj: \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/lite/micro/memory_planner/linear_memory_planner.cc \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/lite/micro/memory_planner/linear_memory_planner.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/lite/micro/compatibility.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/lite/micro/memory_planner/micro_memory_planner.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/lite/c/common.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/lite/core/c/common.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdarg.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdbool.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stddef.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/lite/core/c/c_api_types.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/compiler/mlir/lite/core/c/tflite_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/utility \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/arm-none-eabi/thumb/v8-m.main+dp/hard/bits/c++config.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/arm-none-eabi/thumb/v8-m.main+dp/hard/bits/os_defines.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/arm-none-eabi/thumb/v8-m.main+dp/hard/bits/cpu_defines.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/pstl/pstl_config.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/bits/stl_relops.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/bits/stl_pair.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/type_traits \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/bits/version.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/bits/move.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/bits/utility.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/initializer_list \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow/tensorflow/lite/micro/micro_log.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/cstdarg \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/c++/15.3.1/cstddef

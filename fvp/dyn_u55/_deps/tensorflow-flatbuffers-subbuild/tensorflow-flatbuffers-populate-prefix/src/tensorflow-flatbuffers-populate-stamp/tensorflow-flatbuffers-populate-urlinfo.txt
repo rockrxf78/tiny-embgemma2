@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/download-tensorflow-flatbuffers-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/verify-tensorflow-flatbuffers-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-flatbuffers-subbuild/tensorflow-flatbuffers-populate-prefix/src/tensorflow-flatbuffers-populate-stamp/extract-tensorflow-flatbuffers-populate.cmake
+source_dir=/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-flatbuffers-src
+work_dir=/home/ronren/embgemma2/fvp/dyn_u55/_deps
+url(s)=https://github.com/google/flatbuffers/archive/v25.9.23.zip
+hash=
+no_extract=
+

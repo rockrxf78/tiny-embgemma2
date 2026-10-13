@@ -1,0 +1,557 @@
+[
+ {
+  "id": "light.on",
+  "group": "light",
+  "std": "打开灯光"
+ },
+ {
+  "id": "light.off",
+  "group": "light",
+  "std": "关闭灯光"
+ },
+ {
+  "id": "ac.on",
+  "group": "ac",
+  "std": "打开空调"
+ },
+ {
+  "id": "ac.off",
+  "group": "ac",
+  "std": "关闭空调"
+ },
+ {
+  "id": "tv.on",
+  "group": "tv",
+  "std": "打开电视"
+ },
+ {
+  "id": "tv.off",
+  "group": "tv",
+  "std": "关闭电视"
+ },
+ {
+  "id": "fan.on",
+  "group": "fan",
+  "std": "打开风扇"
+ },
+ {
+  "id": "fan.off",
+  "group": "fan",
+  "std": "关闭风扇"
+ },
+ {
+  "id": "humidifier.on",
+  "group": "humidifier",
+  "std": "打开加湿器"
+ },
+ {
+  "id": "humidifier.off",
+  "group": "humidifier",
+  "std": "关闭加湿器"
+ },
+ {
+  "id": "purifier.on",
+  "group": "purifier",
+  "std": "打开空气净化器"
+ },
+ {
+  "id": "purifier.off",
+  "group": "purifier",
+  "std": "关闭空气净化器"
+ },
+ {
+  "id": "heater.on",
+  "group": "heater",
+  "std": "打开热水器"
+ },
+ {
+  "id": "heater.off",
+  "group": "heater",
+  "std": "关闭热水器"
+ },
+ {
+  "id": "floorheat.on",
+  "group": "floorheat",
+  "std": "打开地暖"
+ },
+ {
+  "id": "floorheat.off",
+  "group": "floorheat",
+  "std": "关闭地暖"
+ },
+ {
+  "id": "socket.on",
+  "group": "socket",
+  "std": "打开插座"
+ },
+ {
+  "id": "socket.off",
+  "group": "socket",
+  "std": "关闭插座"
+ },
+ {
+  "id": "speaker.on",
+  "group": "speaker",
+  "std": "打开音箱"
+ },
+ {
+  "id": "speaker.off",
+  "group": "speaker",
+  "std": "关闭音箱"
+ },
+ {
+  "id": "projector.on",
+  "group": "projector",
+  "std": "打开投影仪"
+ },
+ {
+  "id": "projector.off",
+  "group": "projector",
+  "std": "关闭投影仪"
+ },
+ {
+  "id": "hood.on",
+  "group": "hood",
+  "std": "打开油烟机"
+ },
+ {
+  "id": "hood.off",
+  "group": "hood",
+  "std": "关闭油烟机"
+ },
+ {
+  "id": "oven.on",
+  "group": "oven",
+  "std": "打开烤箱"
+ },
+ {
+  "id": "oven.off",
+  "group": "oven",
+  "std": "关闭烤箱"
+ },
+ {
+  "id": "light.brighter",
+  "group": "light",
+  "std": "调高灯光亮度"
+ },
+ {
+  "id": "light.dimmer",
+  "group": "light",
+  "std": "调低灯光亮度"
+ },
+ {
+  "id": "light.brightness_set",
+  "group": "light",
+  "std": "设置灯光亮度"
+ },
+ {
+  "id": "light.color_set",
+  "group": "light",
+  "std": "设置灯光颜色"
+ },
+ {
+  "id": "light.warm",
+  "group": "light",
+  "std": "设置灯光为暖光"
+ },
+ {
+  "id": "light.cool",
+  "group": "light",
+  "std": "设置灯光为冷光"
+ },
+ {
+  "id": "ac.set_temp",
+  "group": "ac",
+  "std": "设置空调温度"
+ },
+ {
+  "id": "ac.temp_up",
+  "group": "ac",
+  "std": "调高空调温度"
+ },
+ {
+  "id": "ac.temp_down",
+  "group": "ac",
+  "std": "调低空调温度"
+ },
+ {
+  "id": "ac.mode_cool",
+  "group": "ac",
+  "std": "空调切换到制冷模式"
+ },
+ {
+  "id": "ac.mode_heat",
+  "group": "ac",
+  "std": "空调切换到制热模式"
+ },
+ {
+  "id": "ac.mode_dry",
+  "group": "ac",
+  "std": "空调切换到除湿模式"
+ },
+ {
+  "id": "ac.mode_fan",
+  "group": "ac",
+  "std": "空调切换到送风模式"
+ },
+ {
+  "id": "ac.mode_auto",
+  "group": "ac",
+  "std": "空调切换到自动模式"
+ },
+ {
+  "id": "ac.fan_up",
+  "group": "ac",
+  "std": "调大空调风速"
+ },
+ {
+  "id": "ac.fan_down",
+  "group": "ac",
+  "std": "调小空调风速"
+ },
+ {
+  "id": "ac.swing_on",
+  "group": "ac",
+  "std": "打开空调摆风"
+ },
+ {
+  "id": "ac.swing_off",
+  "group": "ac",
+  "std": "关闭空调摆风"
+ },
+ {
+  "id": "ac.sleep",
+  "group": "ac",
+  "std": "空调切换到睡眠模式"
+ },
+ {
+  "id": "fan.speed_up",
+  "group": "fan",
+  "std": "调大风扇风速"
+ },
+ {
+  "id": "fan.speed_down",
+  "group": "fan",
+  "std": "调小风扇风速"
+ },
+ {
+  "id": "fan.osc_on",
+  "group": "fan",
+  "std": "打开风扇摇头"
+ },
+ {
+  "id": "fan.osc_off",
+  "group": "fan",
+  "std": "关闭风扇摇头"
+ },
+ {
+  "id": "tv.vol_up",
+  "group": "tv",
+  "std": "调高电视音量"
+ },
+ {
+  "id": "tv.vol_down",
+  "group": "tv",
+  "std": "调低电视音量"
+ },
+ {
+  "id": "tv.mute",
+  "group": "tv",
+  "std": "电视静音"
+ },
+ {
+  "id": "tv.unmute",
+  "group": "tv",
+  "std": "取消电视静音"
+ },
+ {
+  "id": "tv.ch_next",
+  "group": "tv",
+  "std": "电视切换到下一个频道"
+ },
+ {
+  "id": "tv.ch_prev",
+  "group": "tv",
+  "std": "电视切换到上一个频道"
+ },
+ {
+  "id": "tv.ch_set",
+  "group": "tv",
+  "std": "电视切换到指定频道"
+ },
+ {
+  "id": "tv.home",
+  "group": "tv",
+  "std": "电视返回主页"
+ },
+ {
+  "id": "tv.pause",
+  "group": "tv",
+  "std": "暂停电视播放"
+ },
+ {
+  "id": "tv.play",
+  "group": "tv",
+  "std": "继续电视播放"
+ },
+ {
+  "id": "tv.ff",
+  "group": "tv",
+  "std": "电视快进"
+ },
+ {
+  "id": "tv.rewind",
+  "group": "tv",
+  "std": "电视快退"
+ },
+ {
+  "id": "music.play",
+  "group": "music",
+  "std": "播放音乐"
+ },
+ {
+  "id": "music.play_specific",
+  "group": "music",
+  "std": "播放指定歌曲"
+ },
+ {
+  "id": "music.pause",
+  "group": "music",
+  "std": "暂停音乐"
+ },
+ {
+  "id": "music.resume",
+  "group": "music",
+  "std": "继续播放音乐"
+ },
+ {
+  "id": "music.next",
+  "group": "music",
+  "std": "播放下一首歌"
+ },
+ {
+  "id": "music.prev",
+  "group": "music",
+  "std": "播放上一首歌"
+ },
+ {
+  "id": "music.repeat",
+  "group": "music",
+  "std": "设置单曲循环"
+ },
+ {
+  "id": "music.vol_up",
+  "group": "music",
+  "std": "调高音箱音量"
+ },
+ {
+  "id": "music.vol_down",
+  "group": "music",
+  "std": "调低音箱音量"
+ },
+ {
+  "id": "curtain.open",
+  "group": "curtain",
+  "std": "打开窗帘"
+ },
+ {
+  "id": "curtain.close",
+  "group": "curtain",
+  "std": "关闭窗帘"
+ },
+ {
+  "id": "curtain.stop",
+  "group": "curtain",
+  "std": "窗帘停止"
+ },
+ {
+  "id": "curtain.set",
+  "group": "curtain",
+  "std": "设置窗帘开合度"
+ },
+ {
+  "id": "window.open",
+  "group": "window",
+  "std": "打开窗户"
+ },
+ {
+  "id": "window.close",
+  "group": "window",
+  "std": "关闭窗户"
+ },
+ {
+  "id": "lock.unlock",
+  "group": "lock",
+  "std": "打开门锁"
+ },
+ {
+  "id": "lock.lock",
+  "group": "lock",
+  "std": "锁上门锁"
+ },
+ {
+  "id": "vacuum.start",
+  "group": "vacuum",
+  "std": "开始扫地"
+ },
+ {
+  "id": "vacuum.stop",
+  "group": "vacuum",
+  "std": "停止扫地"
+ },
+ {
+  "id": "vacuum.dock",
+  "group": "vacuum",
+  "std": "扫地机器人回充"
+ },
+ {
+  "id": "cooker.start",
+  "group": "kitchen",
+  "std": "开始煮饭"
+ },
+ {
+  "id": "cooker.stop",
+  "group": "kitchen",
+  "std": "停止煮饭"
+ },
+ {
+  "id": "washer.start",
+  "group": "washer",
+  "std": "开始洗衣"
+ },
+ {
+  "id": "washer.stop",
+  "group": "washer",
+  "std": "暂停洗衣"
+ },
+ {
+  "id": "airer.up",
+  "group": "airer",
+  "std": "升起晾衣架"
+ },
+ {
+  "id": "airer.down",
+  "group": "airer",
+  "std": "放下晾衣架"
+ },
+ {
+  "id": "heater.set_temp",
+  "group": "heater",
+  "std": "设置热水器水温"
+ },
+ {
+  "id": "scene.home",
+  "group": "scene",
+  "std": "启动回家模式"
+ },
+ {
+  "id": "scene.away",
+  "group": "scene",
+  "std": "启动离家模式"
+ },
+ {
+  "id": "scene.sleep",
+  "group": "scene",
+  "std": "启动睡眠模式"
+ },
+ {
+  "id": "scene.wake",
+  "group": "scene",
+  "std": "启动起床模式"
+ },
+ {
+  "id": "scene.movie",
+  "group": "scene",
+  "std": "启动观影模式"
+ },
+ {
+  "id": "scene.reading",
+  "group": "scene",
+  "std": "启动阅读模式"
+ },
+ {
+  "id": "scene.party",
+  "group": "scene",
+  "std": "启动聚会模式"
+ },
+ {
+  "id": "scene.dining",
+  "group": "scene",
+  "std": "启动用餐模式"
+ },
+ {
+  "id": "query.temp",
+  "group": "query",
+  "std": "查询室内温度"
+ },
+ {
+  "id": "query.humidity",
+  "group": "query",
+  "std": "查询室内湿度"
+ },
+ {
+  "id": "query.weather",
+  "group": "query",
+  "std": "查询天气"
+ },
+ {
+  "id": "query.time",
+  "group": "query",
+  "std": "查询当前时间"
+ },
+ {
+  "id": "query.status",
+  "group": "query",
+  "std": "查询设备状态"
+ },
+ {
+  "id": "query.power",
+  "group": "query",
+  "std": "查询用电量"
+ },
+ {
+  "id": "query.air",
+  "group": "query",
+  "std": "查询空气质量"
+ },
+ {
+  "id": "sec.arm",
+  "group": "security",
+  "std": "开启安防布防"
+ },
+ {
+  "id": "sec.disarm",
+  "group": "security",
+  "std": "关闭安防布防"
+ },
+ {
+  "id": "sec.camera",
+  "group": "security",
+  "std": "查看摄像头画面"
+ },
+ {
+  "id": "timer.set",
+  "group": "timer",
+  "std": "设置定时关闭设备"
+ },
+ {
+  "id": "timer.cancel",
+  "group": "timer",
+  "std": "取消定时"
+ },
+ {
+  "id": "all.lights_off",
+  "group": "all",
+  "std": "关闭所有灯"
+ },
+ {
+  "id": "all.lights_on",
+  "group": "all",
+  "std": "打开所有灯"
+ },
+ {
+  "id": "all.off",
+  "group": "all",
+  "std": "关闭所有设备"
+ }
+]

@@ -1,0 +1,19 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Model weight over GitHub's 100MB per-file limit
+teacher2/model.safetensors
+
+# HuggingFace download cache
+.cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

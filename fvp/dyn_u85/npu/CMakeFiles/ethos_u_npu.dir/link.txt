@@ -1,0 +1,2 @@
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ar qc ../lib/libethos_u_npu.a CMakeFiles/ethos_u_npu.dir/ethosu_npu_init.c.obj CMakeFiles/ethos_u_npu.dir/ethosu_profiler.c.obj CMakeFiles/ethos_u_npu.dir/ethosu_cpu_cache.c.obj
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ranlib ../lib/libethos_u_npu.a

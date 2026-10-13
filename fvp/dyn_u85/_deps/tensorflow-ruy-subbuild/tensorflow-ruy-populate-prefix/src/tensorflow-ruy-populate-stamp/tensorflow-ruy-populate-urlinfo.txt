@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/download-tensorflow-ruy-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/verify-tensorflow-ruy-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-subbuild/tensorflow-ruy-populate-prefix/src/tensorflow-ruy-populate-stamp/extract-tensorflow-ruy-populate.cmake
+source_dir=/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow-ruy-src
+work_dir=/home/ronren/embgemma2/fvp/dyn_u85/_deps
+url(s)=https://github.com/google/ruy/archive/d37128311b445e758136b8602d1bbd2a755e115d.zip
+hash=
+no_extract=
+

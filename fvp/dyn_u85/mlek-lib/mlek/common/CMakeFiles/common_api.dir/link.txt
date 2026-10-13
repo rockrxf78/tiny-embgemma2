@@ -1,0 +1,2 @@
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ar qc ../../../lib/libcommon_api.a CMakeFiles/common_api.dir/Classifier.cc.obj CMakeFiles/common_api.dir/ImageUtils.cc.obj CMakeFiles/common_api.dir/MelSpectrogram.cc.obj CMakeFiles/common_api.dir/Mfcc.cc.obj CMakeFiles/common_api.dir/AudioRenderUtils.cc.obj
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ranlib ../../../lib/libcommon_api.a

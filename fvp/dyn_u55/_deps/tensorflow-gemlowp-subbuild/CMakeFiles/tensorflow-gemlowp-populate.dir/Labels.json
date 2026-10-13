@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/CMakeFiles/tensorflow-gemlowp-populate"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/CMakeFiles/tensorflow-gemlowp-populate.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/CMakeFiles/tensorflow-gemlowp-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-build.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-download.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-install.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-test.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u55/_deps/tensorflow-gemlowp-subbuild/tensorflow-gemlowp-populate-prefix/src/tensorflow-gemlowp-populate-stamp/tensorflow-gemlowp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tensorflow-gemlowp-populate"
+		],
+		"name" : "tensorflow-gemlowp-populate"
+	}
+}

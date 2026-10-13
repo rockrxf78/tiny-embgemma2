@@ -1,0 +1,30 @@
+mlek-lib/mlek/fwk/tflm/cmsis_nn/CMakeFiles/cmsis-nn.dir/Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s16.c.obj: \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-nn/Source/FullyConnectedFunctions/arm_fully_connected_get_buffer_sizes_s16.c \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-nn/Include/arm_nnfunctions.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-nn/Include/arm_nn_math_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/limits.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/syslimits.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/limits.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stddef.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/syslimits.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/string.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/arm-none-eabi/include/sys/string.h \
+ /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-nn/Include/arm_nn_types.h \
+ /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/lib/gcc/arm-none-eabi/15.3.1/include/stdbool.h

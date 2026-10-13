@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/CMakeFiles/tensorflow_lite_micro_cmake_wrapper-populate"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/CMakeFiles/tensorflow_lite_micro_cmake_wrapper-populate.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/CMakeFiles/tensorflow_lite_micro_cmake_wrapper-populate-complete.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-build.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-configure.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-copyfile.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-download.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-install.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-patch.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-test.rule"
+		},
+		{
+			"file" : "/home/ronren/embgemma2/fvp/dyn_u85/_deps/tensorflow_lite_micro_cmake_wrapper-subbuild/tensorflow_lite_micro_cmake_wrapper-populate-prefix/src/tensorflow_lite_micro_cmake_wrapper-populate-stamp/tensorflow_lite_micro_cmake_wrapper-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tensorflow_lite_micro_cmake_wrapper-populate"
+		],
+		"name" : "tensorflow_lite_micro_cmake_wrapper-populate"
+	}
+}

@@ -1,0 +1,2 @@
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ar qc ../../../../lib/libnoise_reduction_api.a CMakeFiles/noise_reduction_api.dir/RNNoiseProcessing.cc.obj CMakeFiles/noise_reduction_api.dir/RNNoiseFeatureProcessor.cc.obj
+/home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-ranlib ../../../../lib/libnoise_reduction_api.a

@@ -1,0 +1,262 @@
+-- Build type is set to Release
+-- Source directory: /home/ronren/ml-embedded-evaluation-kit
+-- Binary directory: /home/ronren/embgemma2/fvp/dyn_u85
+-- Assessing common user options...
+-- User option MLEK_LOG_ENABLE is set to ON
+-- User option MLEK_LOG_LEVEL is set to MLEK_LOG_LEVEL_INFO
+-- User option MLEK_RUNTIME_PROVIDER is set to MLEK
+-- User option ML_FRAMEWORK is set to TensorFlowLiteMicro
+-- User option TENSORFLOW_SRC_PATH is set to /home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow
+-- User option TENSORFLOW_LITE_MICRO_BUILD_TYPE is set to $<IF:$<CONFIG:RELEASE>,release_with_logs,debug>
+-- User option TENSORFLOW_LITE_MICRO_CLEAN_DOWNLOADS is set to OFF
+-- User option TENSORFLOW_LITE_MICRO_CLEAN_BUILD is set to ON
+-- User option TARGET_PLATFORM is set to mps4
+-- User option LINKER_SCRIPT_OVERRIDE_PATH is set to 
+-- User option USE_CASE_BUILD is set to inference_runner
+-- User option CPU_PROFILE_ENABLED is set to OFF
+-- User option USE_SINGLE_INPUT is set to OFF
+-- User option RESOURCES_PATH is set to /home/ronren/ml-embedded-evaluation-kit/resources_downloaded
+-- Searching for mps4 build configuration
+-- Found build configuration: /home/ronren/ml-embedded-evaluation-kit/scripts/cmake/platforms/mps4
+-- Platform: Arm MPS4 FPGA Prototyping Board or FVP
+-- User option TARGET_SUBSYSTEM is set to sse-320
+-- User option FPGA_PLATFORM_SSE_320 is set to OFF
+-- User option ETHOS_U_NPU_ID is set to U85
+-- User option ETHOS_U_NPU_ENABLED is set to ON
+-- Assessing NPU configuration options...
+-- User option ETHOS_U_NPU_TIMING_ADAPTER_SRC_PATH is set to /home/ronren/ml-embedded-evaluation-kit/dependencies/core-platform/drivers/timing_adapter
+-- User option ETHOS_U_NPU_DRIVER_SRC_PATH is set to /home/ronren/ml-embedded-evaluation-kit/dependencies/core-driver
+-- User option ETHOS_U_NPU_ID is set to U85
+-- User option ETHOS_U_NPU_CACHE_SIZE is set to 393216
+-- User option ETHOS_U_NPU_MEMORY_MODE is set to Shared_Sram
+-- User option ETHOS_U_NPU_CONFIG_ID is set to Z512
+-- User option ETHOS_U_NPU_TIMING_ADAPTER_ENABLED is set to ON
+-- User option TA_CONFIG_FILE is set to ta_config_u85_sys_dram_mid
+-- Assessing FVP test configuration options...
+-- User option BUILD_FVP_TESTS is set to OFF
+-- User option INTERACTIVE_MODE is set to OFF
+-- User option FVP_VSI_ENABLED is set to OFF
+-- User option SEMIHOSTING_ENABLED is set to OFF
+-- Assessing CMSIS configuration options...
+-- User option CMSIS_SRC_PATH is set to /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6
+-- User option CMSIS_DSP_SRC_PATH is set to /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-dsp
+-- User option CMSIS_NN_SRC_PATH is set to /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-nn
+-- User option CORTEX_DFP_SRC_PATH is set to /home/ronren/ml-embedded-evaluation-kit/dependencies/cortex-dfp
+-- User option CMSIS_DSP_MIN_REQ_SRC_LIST is set to ON
+-- Using CMAKE_TOOLCHAIN_FILE: /home/ronren/ml-embedded-evaluation-kit/scripts/cmake/toolchains/bare-metal-gcc.cmake
+-- The C compiler identification is GNU 15.3.1
+-- The CXX compiler identification is GNU 15.3.1
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/ronren/tools/arm-gnu-toolchain-15.3.rel1-aarch64-arm-none-eabi/bin/arm-none-eabi-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using existing python at /home/ronren/ml-embedded-evaluation-kit/resources_downloaded/env/bin/python3
+-- Setting log level to HAL_LOG_LEVEL_INFO
+-- **************************************************
+-- Library:                hal_log
+-- CMAKE_SYSTEM_PROCESSOR: cortex-m85
+-- **************************************************
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/cmsis_device
+-- *******************************************************
+-- Library                                : cmsis_device
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/stdout
+-- *******************************************************
+-- Library:                  stdout_retarget_cmsdk
+-- Library:                  stdout_retarget_pl011
+-- *******************************************************
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/display/source/glcd_mps3
+-- *******************************************************
+-- Library:                  hal_display_mps3
+-- *******************************************************
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/display/source/hdlcd_mps4
+-- *******************************************************
+-- Library:                  hal_display_mps4
+-- *******************************************************
+-- CMAKE_CURRENT_SOURCE_DIR:/home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/display
+-- *******************************************************
+-- Library:                 hal_display_stubs
+-- *******************************************************
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/camera
+-- *******************************************************
+-- CMAKE_SYSTEM_PROCESSOR  : cortex-m85
+-- Library                 :  hal_camera_interface
+-- *******************************************************
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/audio
+-- *******************************************************
+-- CMAKE_SYSTEM_PROCESSOR  : cortex-m85
+-- Library                 :  hal_audio_interface
+-- *******************************************************
+-- *******************************************************
+-- PROJECT_NAME                           : ethosu_core_driver
+-- ETHOSU_TARGET_NPU_CONFIG               : ethos-u85-512
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- CMSIS_PATH                             : /home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6
+-- ETHOSU_LOG_ENABLE                      : ON
+-- ETHOSU_LOG_SEVERITY                    : warning
+-- ETHOSU_INFERENCE_TIMEOUT               : Default (no timeout)
+-- *******************************************************
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/npu
+-- *******************************************************
+-- Library                 : ethos_u_npu
+-- *******************************************************
+-- using TA_SRAM_BASE @ 0x50006000; TA_EXT_BASE @ 0x50006800.
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/components/npu_ta
+-- *******************************************************
+-- Library                  : ethos_u_ta
+-- *******************************************************
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal/source/platform/mps4
+-- *******************************************************
+-- Library                 : platform_drivers
+-- CMAKE_SYSTEM_PROCESSOR  : cortex-m85
+-- *******************************************************
+-- Using linker script: /home/ronren/ml-embedded-evaluation-kit/scripts/cmake/platforms/mps4/sse-320/mps4-sse-320.gnu.ld
+-- arm-none-eabi-objcopy requested to generate 3 bin files.
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/hal
+-- *******************************************************
+-- Library                                : hal
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- Including default API config parameters...
+-- Setting log level to MLEK_LOG_LEVEL_INFO
+-- **************************************************
+-- Library:                mlek_log
+-- CMAKE_SYSTEM_PROCESSOR: cortex-m85
+-- **************************************************
+-- *******************************************************
+-- Library                    : arm_math
+-- CMAKE_SYSTEM_PROCESSOR     : cortex-m85
+-- *******************************************************
+-- Adding TensorFlow Lite Micro framework to the build...
+Downloading https://github.com/google/flatbuffers/archive/v25.9.23.zip
+Downloading https://github.com/google/gemmlowp/archive/719139ce755a0f31cbf1c37f7f98adcc7fc9f425.zip
+Downloading https://github.com/google/ruy/archive/d37128311b445e758136b8602d1bbd2a755e115d.zip
+-- *******************************************************
+-- Library: ml_framework_tflm
+-- CMAKE_SYSTEM_PROCESSOR: cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library: ml_framework_iface
+-- CMAKE_SYSTEM_PROCESSOR: cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library:                common_api
+-- CMAKE_SYSTEM_PROCESSOR: cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library                                : asr_api
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library                                : kws_api
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library                                : noise_reduction_api
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library                                : img_class_api
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library                                : object_detection_api
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library                                : vww_api
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library                                : ad_api
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- *******************************************************
+-- Library:                inference_runner_api
+-- CMAKE_SYSTEM_PROCESSOR: cortex-m85
+-- *******************************************************
+-- Created interface target: mlek::asr_impl
+-- Created interface target: mlek::kws_impl
+-- Created interface target: mlek::noise_reduction_impl
+-- Created interface target: mlek::img_class_impl
+-- Created interface target: mlek::object_detection_impl
+-- Created interface target: mlek::vww_impl
+-- Created interface target: mlek::ad_impl
+-- Created interface target: mlek::inference_runner_impl
+CMake Warning (dev) at /usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake:243 (message):
+  Unable to determine default CMAKE_INSTALL_LIBDIR directory because no
+  target architecture is known.  Please enable at least one language before
+  including GNUInstallDirs.
+Call Stack (most recent call first):
+  source/lib/export.cmake:20 (include)
+  source/lib/CMakeLists.txt:130 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- CMAKE_CURRENT_SOURCE_DIR: /home/ronren/ml-embedded-evaluation-kit/source/app/profiler
+-- *******************************************************
+-- Library                                : profiler
+-- CMAKE_SYSTEM_PROCESSOR                 : cortex-m85
+-- *******************************************************
+-- Use-cases source paths: /home/ronren/ml-embedded-evaluation-kit/source/app/use_case.
+-- Use-cases excluded by platform configuration: 
+-- Building use-cases: inference_runner.
+-- Found sources for use-case inference_runner
+-- User option inference_runner_ACTIVATION_BUF_SZ is set to 0x00200000
+-- User option inference_runner_STREAM_NUM_FRAMES is set to 0
+-- User option inference_runner_DYNAMIC_MEM_LOAD_ENABLED is set to ON
+-- NOTE: Dynamic memory load enabled. This inference_runner application will run on FVP only.
+-- Additional compilation flags for inference_runner: DYNAMIC_MODEL_BASE=0x90000000;DYNAMIC_MODEL_SIZE=0x02000000;DYNAMIC_IFM_BASE=0x92000000;DYNAMIC_IFM_SIZE=0x01000000;DYNAMIC_OFM_BASE=0x93000000;DYNAMIC_OFM_SIZE=0x01000000
+-- Using linker script: /home/ronren/ml-embedded-evaluation-kit/scripts/cmake/platforms/mps4/sse-320/mps4-sse-320.gnu.ld
+-- arm-none-eabi-objcopy requested to generate 3 bin files.
+-- --------------------------------------------------------------------------------------------------
+-- Defined build user options:
+-- 
+--     MLEK_LOG_ENABLE=ON
+--     MLEK_LOG_LEVEL=MLEK_LOG_LEVEL_INFO
+--     MLEK_RUNTIME_PROVIDER=MLEK
+--     ML_FRAMEWORK=TensorFlowLiteMicro
+--     TENSORFLOW_SRC_PATH=/home/ronren/ml-embedded-evaluation-kit/dependencies/tensorflow
+--     TENSORFLOW_LITE_MICRO_BUILD_TYPE=$<IF:$<CONFIG:RELEASE>,release_with_logs,debug>
+--     TENSORFLOW_LITE_MICRO_CLEAN_DOWNLOADS=OFF
+--     TENSORFLOW_LITE_MICRO_CLEAN_BUILD=ON
+--     TARGET_PLATFORM=mps4
+--     LINKER_SCRIPT_OVERRIDE_PATH=
+--     USE_CASE_BUILD=inference_runner
+--     CPU_PROFILE_ENABLED=OFF
+--     USE_SINGLE_INPUT=OFF
+--     RESOURCES_PATH=/home/ronren/ml-embedded-evaluation-kit/resources_downloaded
+--     TARGET_SUBSYSTEM=sse-320
+--     FPGA_PLATFORM_SSE_320=OFF
+--     ETHOS_U_NPU_ID=U85
+--     ETHOS_U_NPU_ENABLED=ON
+--     ETHOS_U_NPU_TIMING_ADAPTER_SRC_PATH=/home/ronren/ml-embedded-evaluation-kit/dependencies/core-platform/drivers/timing_adapter
+--     ETHOS_U_NPU_DRIVER_SRC_PATH=/home/ronren/ml-embedded-evaluation-kit/dependencies/core-driver
+--     ETHOS_U_NPU_ID=U85
+--     ETHOS_U_NPU_CACHE_SIZE=393216
+--     ETHOS_U_NPU_MEMORY_MODE=Shared_Sram
+--     ETHOS_U_NPU_CONFIG_ID=Z512
+--     ETHOS_U_NPU_TIMING_ADAPTER_ENABLED=ON
+--     TA_CONFIG_FILE=ta_config_u85_sys_dram_mid
+--     BUILD_FVP_TESTS=OFF
+--     INTERACTIVE_MODE=OFF
+--     FVP_VSI_ENABLED=OFF
+--     SEMIHOSTING_ENABLED=OFF
+--     CMSIS_SRC_PATH=/home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-6
+--     CMSIS_DSP_SRC_PATH=/home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-dsp
+--     CMSIS_NN_SRC_PATH=/home/ronren/ml-embedded-evaluation-kit/dependencies/cmsis-nn
+--     CORTEX_DFP_SRC_PATH=/home/ronren/ml-embedded-evaluation-kit/dependencies/cortex-dfp
+--     CMSIS_DSP_MIN_REQ_SRC_LIST=ON
+--     inference_runner_ACTIVATION_BUF_SZ=0x00200000
+--     inference_runner_STREAM_NUM_FRAMES=0
+--     inference_runner_DYNAMIC_MEM_LOAD_ENABLED=ON
+-- --------------------------------------------------------------------------------------------------
+-- Configuring done (11.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/ronren/embgemma2/fvp/dyn_u85

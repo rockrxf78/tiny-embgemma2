@@ -1,0 +1,50 @@
+{
+ "T": 16,
+ "input_ids": {
+  "shape": [
+   1,
+   16
+  ],
+  "dtype": "int32"
+ },
+ "attn_bias": {
+  "shape": [
+   1,
+   1,
+   1,
+   16
+  ],
+  "dtype": "int8",
+  "scale": 0.4563654363155365,
+  "zero_point": 0,
+  "valid_value": 0,
+  "masked_value": -128
+ },
+ "token_embeddings": {
+  "shape": [
+   1,
+   16,
+   128
+  ],
+  "dtype": "int8",
+  "scale": 0.02166460442730761,
+  "zero_point": 0
+ },
+ "size_bytes": 21985064,
+ "n_ops": 271,
+ "ops": [
+  "ADD",
+  "BATCH_MATMUL",
+  "CONCATENATION",
+  "FULLY_CONNECTED",
+  "GATHER",
+  "GELU",
+  "MEAN",
+  "MUL",
+  "RESHAPE",
+  "RSQRT",
+  "SLICE",
+  "SOFTMAX",
+  "TRANSPOSE"
+ ]
+}
